@@ -1,0 +1,7 @@
+This package uses ultralytics-opencv-headless 8.4.158, distributed under AGPL-3.0.
+Upstream source: https://github.com/ultralytics/ultralytics
+The included license is copied from the installed distribution.
+Other third-party libraries are installed by requirements files and carry their own licenses.
+The inference adapter is adapted from PillGuide project modules.
+Model weights, selected-product mappings, datasets, samples, operational scripts,
+and private provenance records are not distributed in this source-only repository.
