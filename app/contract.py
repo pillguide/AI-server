@@ -1,8 +1,11 @@
 import hashlib
 import json
-from typing import Annotated, Literal
+from collections.abc import Mapping, Sequence
+from typing import Annotated, Any, Literal
 
 from pydantic import BaseModel, Field, StrictBool
+
+from .config import Settings
 
 
 UnitScore = Annotated[float, Field(ge=0, le=1)]
@@ -30,7 +33,16 @@ class PredictionResponse(BaseModel):
     predictions: list[PillPrediction]
 
 
-def load_item_sequences(settings):
+class HealthResponse(BaseModel):
+    status: Literal['ready'] = 'ready'
+    model: Literal['H'] = 'H'
+    device: Literal['cuda:0', 'cpu']
+    class_count: Literal[150] = 150
+    model_sha256: str
+    mapping_sha256: str
+
+
+def load_item_sequences(settings: Settings) -> dict[int, str]:
     content = (settings.root / 'model/classes.json').read_bytes()
     if hashlib.sha256(content).hexdigest() != settings.inference['mapping_sha256']:
         raise ValueError('Class mapping hash differs from the packaged H mapping')
@@ -51,7 +63,9 @@ def load_item_sequences(settings):
     return mapping
 
 
-def public_predictions(predictions, item_sequences):
+def public_predictions(
+    predictions: Sequence[Mapping[str, Any]], item_sequences: Mapping[int, str],
+) -> list[PillPrediction]:
     return [PillPrediction(
         detection_id=index,
         class_id=prediction['class_id'],

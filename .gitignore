@@ -11,6 +11,14 @@
 !/app/contract.py
 !/app/engine.py
 !/app/main.py
+!/app/imaging.py
+!/app/middleware.py
+!/app/routes.py
+!/app/service.py
+
+!/tests/
+/tests/*
+!/tests/test_application.py
 
 !/config/
 /config/*
