@@ -1,49 +1,67 @@
-# PillGuide Model H inference API
+# 약학다식 · PillGuide AI-server
 
-사진 한 장 속 단일/다중 알약을 인식하는 FastAPI 서버의 최소 소스 저장소입니다. 검출마다 Top-1 품목 식별자, 모델 점수, 위치와 인식 저하 가능성을 반환합니다.
+사진 한 장 속 단일·다중 알약을 인식하는 **약학다식 Model H 추론 서버**입니다. 로컬 데스크톱 GPU에서 실행되며, 검출된 알약마다 **Top-1 · confidence · item_seq · 위치 · 인식 저하 가능성**을 Spring에 반환합니다.
 
-## Spring 연동
+## 아키텍처와 책임
 
-요청·응답 형식, 예제, DTO 매핑, 오류 처리와 완료 기준은 [Spring 연동 명세](docs/SPRING_INTEGRATION.md)를 참고하세요. 실제 운영 주소와 API 키는 이 저장소에 포함하지 않습니다.
+```text
+Frontend → Spring (EC2 / K3s)
+               ├─ 식약처 OpenAPI / DB → 품목 정보·사용자 데이터 처리
+               └─ Tailscale / HTTPS → FastAPI (로컬 데스크톱)
+                                         └─ Model H / GPU 추론
+```
 
-## 공개 범위
+**식약처 조회는 Spring의 책임입니다.** 이 서버는 인식만 담당하며 사용자 사진 저장, 대표 이미지 생성, 병용 판단을 수행하지 않습니다. 브라우저 직접 호출 대신 서버 간 인증된 사설 연결을 사용합니다.
 
-이 저장소는 실행 가능한 전체 배포 묶음이 아닙니다. 모델 가중치, 품목 매핑, 실제 설정, 키, 데이터셋, 샘플 사진, 실행/운영 스크립트, 검증 출력과 로컬 테스트는 별도로 보관합니다. 모델 자산 없이 clone만으로 서버를 기동할 수 없습니다.
+Python 3.12 · FastAPI · PyTorch / CUDA · Ultralytics 기반입니다. 기본 실행 장치는 `cuda:0`이며, GPU가 없다고 자동으로 CPU로 대체하지 않습니다.
 
-`.gitignore`는 기본적으로 모든 파일을 제외하고 승인된 파일명만 허용합니다. 새 공개 파일을 추가할 때는 내용 검토 후 allowlist를 함께 수정하세요. 강제 추가는 사용하지 않으며, 커밋 전 실제 staged diff를 확인합니다. 이미 추적된 파일은 `.gitignore`만으로 보호되지 않습니다.
+## API 요약
 
-## 코드 구성
+모든 요청에 `X-API-Key`가 필요합니다. `/docs`, `/redoc`, `/openapi.json`은 비활성화돼 있습니다.
 
-| 파일 | 역할 |
+| API | 입력 / 출력 |
 |---|---|
-| `app/main.py` | 인증, 업로드 제한, 이미지 디코딩, API 및 단일 추론 처리 |
-| `app/engine.py` | 모델 로딩, 기존 검출·후처리 |
-| `app/contract.py` | 품목 식별자 검증·매핑, 공개 응답 모델 |
-| `app/config.py` | 패키지 경로와 서버 환경 설정 |
-| `config/inference.example.json` | 실제 파일 해시가 없는 설정 템플릿 |
-| `requirements-*.txt` | 검증 환경의 Python 의존성 |
+| `GET /health` | 모델·장치·클래스 수·모델/매핑 버전 확인 |
+| `POST /predict` | multipart `file` 한 장 → 이미지 크기와 검출 결과 배열 |
 
-## 로컬 자산을 가진 운영자의 준비 절차
+- JPEG/PNG, 파일 10 MiB·전체 요청 11 MiB·20,000,000픽셀 제한.
+- 각 결과: `detection_id`, `class_id`, `item_seq`, `confidence`, `bbox_xyxy`, `recognition_may_be_degraded`.
+- 같은 품목이 여러 알이면 개별 결과로 유지합니다. 낮은 점수만으로 재촬영을 강제하지 않으며, 미검출은 빈 배열입니다.
+- **[Spring 연동 명세](docs/SPRING_INTEGRATION.md)**에 입출력 예시, 필드 의미, 오류·동시 처리, 완료 기준을 정리했습니다.
 
-1. Windows Python 3.12와 CUDA를 사용할 수 있는 NVIDIA GPU/드라이버를 준비합니다. 기본 추론 장치는 `cuda:0`이며 CPU로 조용히 대체하지 않습니다.
-2. 프로젝트 전용 가상환경에서 `requirements-torch-windows.txt`, `requirements-windows.txt` 순서로 의존성을 설치합니다.
-3. 승인된 비공개 경로에서 `model/final_H.pt`, `model/classes.json`을 공급합니다. 기존 로컬 자산은 덮어쓰지 않습니다.
-4. `config/inference.json`이 없는 새 환경에서만 `config/inference.example.json`을 복사합니다. 두 해시 placeholder를 신뢰할 수 있는 모델 패키지의 SHA-256으로 바꿉니다. 검증 실패를 통과시키기 위해 임의 파일의 해시로 바꾸지 않습니다.
-5. `PILLGUIDE_API_KEY`에 최소 32자의 무작위 비밀 키를 안전하게 주입합니다. 저장소·명령행 인자·로그·프론트에 키를 넣지 않습니다.
-6. 해당 가상환경과 프로젝트 루트에서 다음 명령으로 실행합니다.
+## 공개 범위와 실행 준비
+
+이 저장소는 **최소 소스 묶음**으로, clone만으로 실행되지 않습니다. 모델·품목 매핑·실제 설정·키·데이터셋·샘플·운영 스크립트·로컬 검증 자료는 공개하지 않습니다. `.gitignore`는 승인된 파일만 허용합니다.
+
+1. Windows Python 3.12, NVIDIA GPU/드라이버와 전용 가상환경을 준비하고 두 requirements 파일의 의존성을 설치합니다. CUDA PyTorch 의존성을 먼저 설치합니다.
+2. 승인된 비공개 경로에서 `model/final_H.pt`, `model/classes.json`을 공급합니다. 매핑은 클래스 0~149의 `class_id`, 모델과 일치하는 `product_code`, 고유한 숫자 문자열 `item_seq`를 포함합니다.
+3. 실제 설정이 없는 새 환경에서만 [설정 템플릿](config/inference.example.json)을 `config/inference.json`으로 복사하고, 신뢰할 수 있는 모델·매핑 SHA-256을 채웁니다. 기존 자산을 덮어쓰거나 검증을 우회하지 않습니다.
+4. 최소 32자의 무작위 `PILLGUIDE_API_KEY`를 서버 환경에 안전하게 주입하고 저장소 루트에서 실행합니다.
 
 ```text
 python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --workers 1
 ```
 
-네트워크 연결은 인증된 사설 경로와 TLS를 사용합니다. 공용 포트 개방이나 자동 시작 설정은 이 저장소가 수행하지 않습니다. `/health`와 `/predict` 모두 API 키가 필요하며 `/docs`, `/redoc`, `/openapi.json`은 비활성화돼 있습니다.
+API 키·실제 운영 주소는 별도 승인 채널로 전달합니다. 공용 포트 개방과 자동 시작 설정은 이 저장소가 수행하지 않습니다.
 
-품목 매핑은 클래스 0~149의 고유한 `class_id`, 모델과 일치하는 `product_code`, 고유한 숫자 문자열 `item_seq`를 포함해야 합니다. 실제 매핑 내용은 공개하지 않습니다.
+## 코드 구조
+
+| 파일 | 역할 |
+|---|---|
+| `app/main.py` | 인증, 업로드 제한, 이미지 디코딩, API·동시 처리 |
+| `app/engine.py` | 모델 로딩, 검출·후처리 |
+| `app/contract.py` | 응답 모델, 품목 매핑 검증·변환 |
+| `app/config.py` | 패키지 경로와 서버 설정 |
 
 ## 검증 범위와 한계
 
-2026-10-18 로컬 비공개 검증 환경에서 단위 테스트 17개, GPU 및 HTTP 각각 기준 사진 6장, 실제 백엔드 컨테이너 두 개에서 총 12건의 사진 요청을 확인했습니다. 검증 데이터·운영 로그는 공개 묶음에서 제외했습니다. 이는 새 실촬영 정확도 평가나 부하 시험, Spring 애플리케이션 연동 완료를 뜻하지 않습니다.
+학습한 **150품목**만 지원하며, 학습 외 품목을 자동 거절하지 못합니다. confidence는 정답일 확률이 아니고, 경고가 false여도 정확성을 보장하지 않습니다.
 
-현재 모델의 지원 범위는 학습한 150품목입니다. 지원 외 품목을 자동으로 거절하지 못하며, confidence는 검증된 정답 확률이 아닙니다. 서버는 식약처 조회, 사용자 사진 저장, 품목 대표 이미지 생성, 병용 판단을 수행하지 않습니다.
+2026-10-18 비공개 환경에서 단위 테스트 17개, GPU·HTTP 각각 기준 사진 6장, 실제 백엔드 컨테이너 두 개의 총 12건 요청을 확인했습니다. 이는 실촬영 정확도 평가·부하 시험 또는 Spring 애플리케이션 연동 완료를 뜻하지 않습니다.
 
-기존 의존성 고지는 [NOTICE](licenses/NOTICE.txt)와 [Ultralytics 라이선스](licenses/Ultralytics-AGPL-3.0.txt)를 참고하세요. 의존성 고지는 별도의 프로젝트 라이선스를 새로 부여한다는 의미가 아닙니다.
+## 연결 문서
+
+- [Spring 연동 명세](docs/SPRING_INTEGRATION.md) · [의존성 고지](licenses/NOTICE.txt) · [Ultralytics AGPL-3.0](licenses/Ultralytics-AGPL-3.0.txt)
+- [Backend — 비즈니스 처리](https://github.com/pillguide/Backend) · [Frontend — 사용자 화면](https://github.com/pillguide/Frontend) · [manifest — 배포 설정](https://github.com/pillguide/manifest)
+
+의존성 고지는 별도의 프로젝트 라이선스를 새로 부여한다는 의미가 아닙니다.
