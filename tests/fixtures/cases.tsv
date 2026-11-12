@@ -11,6 +11,11 @@ out-of-bounds-offset	415
 wrong-primary-size	415
 out-of-bounds-size	415
 dependent-image	415
+reserved-flag	415
+dependent-child-flag	415
+dependent-parent-flag	415
+empty-auxiliary-scan	415
+representative-primary	200
 ordinary-mpo	415
 three-images	415
 color-auxiliary	415

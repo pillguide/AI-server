@@ -17,9 +17,12 @@ def _segments(data: bytes, start: int, end: int):
         raise ValueError('Missing JPEG start')
     pos = start + 2
     entropy = False
+    scan_data = False
     while pos < end:
         if entropy:
-            pos = data.find(b'\xff', pos, end)
+            marker_at = data.find(b'\xff', pos, end)
+            scan_data |= marker_at > pos
+            pos = marker_at
             if pos < 0:
                 break
         elif data[pos] != 255:
@@ -31,7 +34,10 @@ def _segments(data: bytes, start: int, end: int):
         marker = data[pos]
         pos += 1
         if entropy and (marker == 0 or 0xd0 <= marker <= 0xd7):
+            scan_data |= marker == 0
             continue
+        if entropy and not scan_data:
+            raise ValueError('Empty JPEG scan')
         entropy = False
         if marker == 0xd9:
             if pos != end:
@@ -47,6 +53,7 @@ def _segments(data: bytes, start: int, end: int):
         yield marker, pos + 2, pos + length
         pos += length
         entropy = marker == 0xda
+        scan_data = False
     raise ValueError('Missing JPEG end')
 
 
@@ -128,7 +135,8 @@ def auxiliary_range(data: bytes) -> tuple[int, int]:
     for index in range(2):
         entry = pos + index * 16
         attr, size, offset = read('I', entry), read('I', entry + 4), read('I', entry + 8)
-        if attr & 0x0fffffff != (0x030000 if index == 0 else 0) or read('I', entry + 12) != 0:
+        allowed_attributes = (0x030000, 0x20030000) if index == 0 else (0,)
+        if attr not in allowed_attributes or read('I', entry + 12) != 0:
             raise ValueError('Unsupported MP image attributes')
         if index == 0 and offset != 0:
             raise ValueError('Invalid primary offset')
