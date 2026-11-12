@@ -18,6 +18,7 @@ def _segments(data: bytes, start: int, end: int):
     pos = start + 2
     entropy = False
     scan_data = False
+    segment_count = 0
     while pos < end:
         if entropy:
             marker_at = data.find(b'\xff', pos, end)
@@ -50,6 +51,9 @@ def _segments(data: bytes, start: int, end: int):
         length = int.from_bytes(data[pos:pos + 2], 'big')
         if length < 2 or pos + length > end:
             raise ValueError('Invalid JPEG segment length')
+        segment_count += 1
+        if segment_count > 4096:
+            raise ValueError('Too many JPEG segments')
         yield marker, pos + 2, pos + length
         pos += length
         entropy = marker == 0xda
@@ -61,7 +65,7 @@ def _apple_gain_map(xmp: bytes) -> bool:
     # JPEG APP1 bounds the input to <64 KiB. Reject declarations before parsing
     # UTF-8 XML so neither DTDs nor entity expansion are accepted.
     xml = xmp.decode('utf-8')
-    if '<!DOCTYPE' in xml.upper() or '<!ENTITY' in xml.upper():
+    if '\0' in xml or '<!DOCTYPE' in xml.upper() or '<!ENTITY' in xml.upper():
         return False
     root = ElementTree.fromstring(xml)
     for description in root.iter(f'{{{RDF}}}Description'):
