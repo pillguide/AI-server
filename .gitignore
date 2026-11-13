@@ -32,3 +32,13 @@
 /licenses/*
 !/licenses/NOTICE.txt
 !/licenses/Ultralytics-AGPL-3.0.txt
+
+# Reviewed metadata and offline validation only; image bytes stay private.
+!/provenance/
+/provenance/*
+!/provenance/representative-front-150.json
+!/scripts/
+/scripts/*
+!/scripts/validate_representative_images.py
+!/tests/test_representative_images.py
+!/docs/REPRESENTATIVE_IMAGES.md
