@@ -1,0 +1,3014 @@
+{
+  "schemaVersion": 1,
+  "version": "front150-20261114",
+  "sourceMappingSha256": "71569e7f4d277b5c6e69930086db7d52920a1c12dae3325a9cbc2234829e8bce",
+  "supportedDrugsSha256": "55675e4f6c19a3a9adf5c7c5e981b1d7e51c7315d12d3c5d7d3bdd88eeda3924",
+  "sourceArchiveSha256": "e3beb32460e9bcadbdc0e0052634a174d252bffad7d75df539d56a0aca9904d5",
+  "selectionSha256": "7c05f80591b57ce6cc9ed296b33cf63046df094ec7b735b28cd40b357fad0394",
+  "sourceLabelManifestHashes": {
+    "data/metadata/label_manifest.jsonl": "7a83f8abf674731b0fa85f62382ce6d940a2f12b07c355fb3bff4547e9791939",
+    "research/scope150/scope150_20260930/source_plan/new_single_manifest.jsonl": "2f8dcb30192069c03bca03d6cf70e38d8e95fa908b4adba46cc5c49cd1586c29"
+  },
+  "images": [
+    {
+      "classId": 0,
+      "productCode": "K-000250",
+      "itemSeq": "197400246",
+      "modelName": "마그밀정(수산화마그네슘)",
+      "relativePath": "000_K-000250/front.png",
+      "sourcePath": "data/sources/raw/K-000250/K-000250_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_1_단일.zip",
+        "labelMember": "K-000250_json/K-000250_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "bad3b19a59493b3cec551c20daac2aa1650b19cb43980d6848df0a1278e604b7",
+      "pixelSha256": "01b8d2efb94537bc5a77c1c11797e998ff3d99bfdd1aefac00cdf954cc3f13cc",
+      "format": "PNG",
+      "bytes": 1952441,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 1,
+      "productCode": "K-000317",
+      "itemSeq": "197500541",
+      "modelName": "구주스피로닥톤정(스피로노락톤)",
+      "relativePath": "001_K-000317/front.png",
+      "sourcePath": "data/sources/raw/K-000317/K-000317_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_1_단일.zip",
+        "labelMember": "K-000317_json/K-000317_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "2e0b6709b378c2f59031d99fa8e192deb7bab7614ec7072314f887e945182c24",
+      "pixelSha256": "5bf021e3b9c3fa721afbc5b6e52b8d79294c51fa953a3ba868e616f7f108c32a",
+      "format": "PNG",
+      "bytes": 1871473,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 2,
+      "productCode": "K-000573",
+      "itemSeq": "197900277",
+      "modelName": "게보린정 300mg/PTP",
+      "relativePath": "002_K-000573/front.png",
+      "sourcePath": "data/sources/raw/K-000573/K-000573_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_1_단일.zip",
+        "labelMember": "K-000573_json/K-000573_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b741912f99c57912cf2b81a77cc0072699419fceeb8c81e195e86786155d2ae6",
+      "pixelSha256": "fabcf09e2eaad38a122543fe3dacdb1c33c0da207707dc2b0c4d659522401fb2",
+      "format": "PNG",
+      "bytes": 1090495,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 3,
+      "productCode": "K-000650",
+      "itemSeq": "198000151",
+      "modelName": "베라드정 0.5g/PTP",
+      "relativePath": "003_K-000650/front.png",
+      "sourcePath": "data/sources/raw/K-000650/K-000650_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_1_단일.zip",
+        "labelMember": "K-000650_json/K-000650_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b10cbad085f059b56b7305ffe0ab524f7202499da409aa243c7be053c5a0707d",
+      "pixelSha256": "7dca5666be2803e84321d23a60596ed971a8a7bdf3f1c880a1fc5acf86d6e43a",
+      "format": "PNG",
+      "bytes": 831556,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 4,
+      "productCode": "K-000898",
+      "itemSeq": "198200707",
+      "modelName": "오페릴50서방정(오르펜나드린시트르산염50밀리그람)",
+      "relativePath": "004_K-000898/front.png",
+      "sourcePath": "data/sources/raw/K-000898/K-000898_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_22_단일.zip",
+        "labelMember": "K-000898_json/K-000898_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "8969bc9cfc1bf060581b4e01b01b596fcc33d57c6b617c44914804ab6d34982e",
+      "pixelSha256": "2990c18dbb3ee9750153911e02114e8649794e43da7e5877e2859d1f511aea87",
+      "format": "PNG",
+      "bytes": 1057050,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 5,
+      "productCode": "K-001866",
+      "itemSeq": "198700430",
+      "modelName": "알마겔정(알마게이트)(수출명:유한가스트라겔정)",
+      "relativePath": "005_K-001866/front.png",
+      "sourcePath": "data/sources/raw/K-001866/K-001866_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_2_단일.zip",
+        "labelMember": "K-001866_json/K-001866_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9a70de6693b2d07ed47a56b0b943fdab47adbdf5f6a28d16a71208a0c1a2b713",
+      "pixelSha256": "9ec4b5e1a3debdc98323173d3e585b405fd079480872e0c242eb635340f6458b",
+      "format": "PNG",
+      "bytes": 1124487,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 6,
+      "productCode": "K-001900",
+      "itemSeq": "198700706",
+      "modelName": "보령부스파정 5mg",
+      "relativePath": "006_K-001900/front.png",
+      "sourcePath": "data/sources/raw/K-001900/K-001900_0_0_0_2_90_040_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_24_단일.zip",
+        "labelMember": "K-001900_json/K-001900_0_0_0_2_90_040_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "ae20eebde380683720b87c18544d8e1dd831ee15ce8e39f03deb3c0d0b385f80",
+      "pixelSha256": "94d9efabb98a5f878d5627171dfb0ded77a4f208cf6c13356ae56df2a091c30d",
+      "format": "PNG",
+      "bytes": 910282,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 7,
+      "productCode": "K-002031",
+      "itemSeq": "198701478",
+      "modelName": "자비론정(독실아민석시네이트)",
+      "relativePath": "007_K-002031/front.png",
+      "sourcePath": "data/sources/raw/K-002031/K-002031_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_2_단일.zip",
+        "labelMember": "K-002031_json/K-002031_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c290542fe7ac381468c1031f2502be1d2babfe25c09589fd93203f063d67e972",
+      "pixelSha256": "57b128e5e36b730ab6cc7f8628557ce119e2365a8dcd362f2ca1e83fe16756ea",
+      "format": "PNG",
+      "bytes": 1801912,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 8,
+      "productCode": "K-002049",
+      "itemSeq": "198701672",
+      "modelName": "크라운소브레롤캅셀",
+      "relativePath": "008_K-002049/front.png",
+      "sourcePath": "data/sources/raw/K-002049/K-002049_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_2_단일.zip",
+        "labelMember": "K-002049_json/K-002049_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9c91a10710d3303a92c790ea23d03e6ae0fa46348c061e1ad17fda68760049b8",
+      "pixelSha256": "51db2fd2afba638ba782f59675900ea041e6ab10c39f1def71acc9af62bc7e40",
+      "format": "PNG",
+      "bytes": 2109287,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 9,
+      "productCode": "K-002169",
+      "itemSeq": "198800190",
+      "modelName": "베스타제포르테정 15mg/PTP",
+      "relativePath": "009_K-002169/front.png",
+      "sourcePath": "data/sources/raw/K-002169/K-002169_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_2_단일.zip",
+        "labelMember": "K-002169_json/K-002169_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c38803b0460b5917cb277ac0f2963f7889fd29d3a497988c0892a89a6b2fa96c",
+      "pixelSha256": "9594ce40ab9458f766bde415a682df6e49e796fddbaa99ce29b6e442d4ce3290",
+      "format": "PNG",
+      "bytes": 1165011,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 10,
+      "productCode": "K-002483",
+      "itemSeq": "198801531",
+      "modelName": "뮤테란캡슐 100mg",
+      "relativePath": "010_K-002483/front.png",
+      "sourcePath": "data/sources/raw/K-002483/K-002483_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_24_단일.zip",
+        "labelMember": "K-002483_json/K-002483_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "aacb492bd5e70d17f6e4199b62990996d065ce045f12758da0f19f7c9b9291a8",
+      "pixelSha256": "7b4133e87ad42a3e45e7b6e180e680a282e9dd59fbd8db0521126c864fdd6df1",
+      "format": "PNG",
+      "bytes": 1805108,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 11,
+      "productCode": "K-002492",
+      "itemSeq": "198801649",
+      "modelName": "후로스판정(플로로글루시놀수화물)",
+      "relativePath": "011_K-002492/front.png",
+      "sourcePath": "data/sources/raw/K-002492/K-002492_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_24_단일.zip",
+        "labelMember": "K-002492_json/K-002492_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "0b0c131ff149f03c402968c85a1222429840857fbe628d767245c440d8892947",
+      "pixelSha256": "80dd90395ea07190ce0d33aeff8110cdf6b4388f912d49638ef4643c14ed4e8c",
+      "format": "PNG",
+      "bytes": 1855063,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 12,
+      "productCode": "K-003351",
+      "itemSeq": "199101125",
+      "modelName": "일양하이트린정 2mg",
+      "relativePath": "012_K-003351/front.png",
+      "sourcePath": "data/sources/raw/K-003351/K-003351_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_25_단일.zip",
+        "labelMember": "K-003351_json/K-003351_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "4cf4f912b4c830033acd2067c6719b5560b469bb0978e1dd9eb6d171e6b8befc",
+      "pixelSha256": "311d9ec774cd8f3c98c1d4015436eb102b195d02a36739582fed9dde2458cbe1",
+      "format": "PNG",
+      "bytes": 2038695,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 13,
+      "productCode": "K-003614",
+      "itemSeq": "199200261",
+      "modelName": "동아오팔몬정(리마프로스트알파-시클로덱스트린포접화합물)",
+      "relativePath": "013_K-003614/front.png",
+      "sourcePath": "data/sources/raw/K-003614/K-003614_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_26_단일.zip",
+        "labelMember": "K-003614_json/K-003614_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "18592bad58296f209eff78107c11a3576f65417bd68ed518fcdcd2cc7f55e02c",
+      "pixelSha256": "f8fd1163b707243cfd7e8b4ac4404933585ac52f723412ae5f0f196621212250",
+      "format": "PNG",
+      "bytes": 1940468,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 14,
+      "productCode": "K-003743",
+      "itemSeq": "199201106",
+      "modelName": "알드린정",
+      "relativePath": "014_K-003743/front.png",
+      "sourcePath": "data/sources/raw/K-003743/K-003743_0_0_0_2_75_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_26_단일.zip",
+        "labelMember": "K-003743_json/K-003743_0_0_0_2_75_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "542514ba568e2a852600b7152cc7a6322958b901c133411202f44fcf1703493d",
+      "pixelSha256": "97720fcde573219a8766214131f5e044bd1306cce667df1c088b7e0a3db9159b",
+      "format": "PNG",
+      "bytes": 906750,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 15,
+      "productCode": "K-003746",
+      "itemSeq": "199201154",
+      "modelName": "토파제정(수출명:판틴정)",
+      "relativePath": "015_K-003746/front.png",
+      "sourcePath": "data/sources/raw/K-003746/K-003746_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_3_단일.zip",
+        "labelMember": "K-003746_json/K-003746_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f2625370ef1296fe5650e2fa7dd044646820c55d5eb7e859c17a14fa38fe8789",
+      "pixelSha256": "a2162554ca7338ed27102b10430301650739208101ea0588a0903e325805fe79",
+      "format": "PNG",
+      "bytes": 1754153,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 16,
+      "productCode": "K-004326",
+      "itemSeq": "199302671",
+      "modelName": "구주프로티온아미드정 125mg",
+      "relativePath": "016_K-004326/front.png",
+      "sourcePath": "data/sources/raw/K-004326/K-004326_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_27_단일.zip",
+        "labelMember": "K-004326_json/K-004326_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "92ec2191018fe1c7b8c45bcf93f68488cd30c12e91f849ec867c46bd4363fe42",
+      "pixelSha256": "26eecadd95560791686168b2e2b66a001df9b7ebce7de179094ffcf67a7c9d65",
+      "format": "PNG",
+      "bytes": 1991595,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 17,
+      "productCode": "K-004378",
+      "itemSeq": "199303108",
+      "modelName": "타이레놀정500mg",
+      "relativePath": "017_K-004378/front.png",
+      "sourcePath": "data/sources/raw/K-004378/K-004378_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_3_단일.zip",
+        "labelMember": "K-004378_json/K-004378_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "bae37e9c4d41f4a14257a213954bb56b7156fb754a72063d64134114b99fb4c1",
+      "pixelSha256": "44959858b14ad9de04e1f43de927e8ceb20ec431d92168a93748c2dcabdd9b92",
+      "format": "PNG",
+      "bytes": 1125012,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 18,
+      "productCode": "K-004543",
+      "itemSeq": "199400486",
+      "modelName": "에어탈정(아세클로페낙)",
+      "relativePath": "018_K-004543/front.png",
+      "sourcePath": "data/sources/raw/K-004543/K-004543_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_27_단일.zip",
+        "labelMember": "K-004543_json/K-004543_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "205fdd5a4d9834e20872f28351f0dc7e0ec93cf0b7ac79130eeeb99eb974a54e",
+      "pixelSha256": "5590a19d5b32319f1da51d4527aa0cc45316849ac1a837c5825fb33d54f4a9d1",
+      "format": "PNG",
+      "bytes": 1087530,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 19,
+      "productCode": "K-005000",
+      "itemSeq": "199500420",
+      "modelName": "비유피-4정 20mg",
+      "relativePath": "019_K-005000/front.png",
+      "sourcePath": "data/sources/raw/K-005000/K-005000_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_28_단일.zip",
+        "labelMember": "K-005000_json/K-005000_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "28b4e95c12666b95338023ec011069841957e361065151bfdddf705e4a6f8176",
+      "pixelSha256": "ae2e4692ae256cfbb3281ca19e54ee1459424b502714f5a470c99f1cb45d6f5e",
+      "format": "PNG",
+      "bytes": 1745761,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 20,
+      "productCode": "K-005094",
+      "itemSeq": "199501099",
+      "modelName": "삼남건조수산화알루미늄겔정",
+      "relativePath": "020_K-005094/front.png",
+      "sourcePath": "data/sources/raw/K-005094/K-005094_0_1_0_2_90_080_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_3_단일.zip",
+        "labelMember": "K-005094_json/K-005094_0_1_0_2_90_080_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a46ea1e01eff53166dd6230744eb2cd696a80bcf37115316285b247b81955417",
+      "pixelSha256": "f22272e558303851cba323d190667a1cf8eb2a0cca4902ddbdd172055d999951",
+      "format": "PNG",
+      "bytes": 1806608,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 21,
+      "productCode": "K-005223",
+      "itemSeq": "199501953",
+      "modelName": "신일티아민염산염정 10mg",
+      "relativePath": "021_K-005223/front.png",
+      "sourcePath": "data/sources/raw/K-005223/K-005223_0_0_0_2_90_180_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_3_단일.zip",
+        "labelMember": "K-005223_json/K-005223_0_0_0_2_90_180_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "ec4bbe7b2445284225921899f3e5bfe29ff4526ba283c7f9895be23916f73b55",
+      "pixelSha256": "e5ee3fb627dce6c72c7a6ccfccbee69c1428f9357e8aeaed4a2252a7c3abff03",
+      "format": "PNG",
+      "bytes": 1040183,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 22,
+      "productCode": "K-005391",
+      "itemSeq": "199504272",
+      "modelName": "프로스카정",
+      "relativePath": "022_K-005391/front.png",
+      "sourcePath": "data/sources/raw/K-005391/K-005391_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_29_단일.zip",
+        "labelMember": "K-005391_json/K-005391_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a79daa92b47dbdb5f36b5ab6920f38edd11309a46240a0a1fa3b0afbe506518b",
+      "pixelSha256": "3ce307d27d7e7e42f4281385d53ac0c30b2b3b21a896b32ea401f2c6fe47c8a9",
+      "format": "PNG",
+      "bytes": 2048697,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 23,
+      "productCode": "K-005556",
+      "itemSeq": "199600581",
+      "modelName": "바이탈씨에프정 515.5mg/PTP",
+      "relativePath": "023_K-005556/front.png",
+      "sourcePath": "data/sources/raw/K-005556/K-005556_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_3_단일.zip",
+        "labelMember": "K-005556_json/K-005556_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "eaf8e479f26402e717cde96c0c0314d8ab05bdf7d520afb710a2dcb15ecb40c8",
+      "pixelSha256": "9b2c4b1bca4b9d0c19acb4cb0405a39c3afd0314dacba93f3bac9498506196ad",
+      "format": "PNG",
+      "bytes": 2127662,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 24,
+      "productCode": "K-006563",
+      "itemSeq": "199702182",
+      "modelName": "조인스정 200mg",
+      "relativePath": "024_K-006563/front.png",
+      "sourcePath": "data/sources/raw/K-006563/K-006563_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_4_단일.zip",
+        "labelMember": "K-006563_json/K-006563_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "ba8959f78329858042e1601bc39e3de90625b295300e435a41a139db0ca03377",
+      "pixelSha256": "71d3674cb17378ee36a67a40331823f91534c55558bf85e3fc5bac8f38e4c442",
+      "format": "PNG",
+      "bytes": 1214916,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 25,
+      "productCode": "K-006697",
+      "itemSeq": "199703153",
+      "modelName": "씨즈날정(세티리진염산염)",
+      "relativePath": "025_K-006697/front.png",
+      "sourcePath": "data/sources/raw/K-006697/K-006697_0_0_0_2_75_240_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_4_단일.zip",
+        "labelMember": "K-006697_json/K-006697_0_0_0_2_75_240_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c157ceb06a8ad2ce99571bacf86cdf6701fbc81db69f7aa9a294472baec5ca86",
+      "pixelSha256": "ce644fe3d62744162b6a593b15013c39fa356907ccd896b72b595a93aa387c80",
+      "format": "PNG",
+      "bytes": 1098193,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 26,
+      "productCode": "K-006808",
+      "itemSeq": "199704519",
+      "modelName": "펜타사서방정 500mg",
+      "relativePath": "026_K-006808/front.png",
+      "sourcePath": "data/sources/raw/K-006808/K-006808_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_4_단일.zip",
+        "labelMember": "K-006808_json/K-006808_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "bd90a8e50b899934afa6a011f5c3d6dd6b2f82cff62321534d97d02f719a207e",
+      "pixelSha256": "337521cf031f2f4c0b144a29067ac906bb7a248ef5473b4c815d12a18acd48d6",
+      "format": "PNG",
+      "bytes": 1651040,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 27,
+      "productCode": "K-006835",
+      "itemSeq": "199704687",
+      "modelName": "이튼큐정 35mg/PTP",
+      "relativePath": "027_K-006835/front.png",
+      "sourcePath": "data/sources/raw/K-006835/K-006835_0_2_0_2_75_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_31_단일.zip",
+        "labelMember": "K-006835_json/K-006835_0_2_0_2_75_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f9251504832b621d3112cc9bae2c83987758d045de6e58e933a3196e8707002d",
+      "pixelSha256": "c63cc0ea0622c46737b4f6afff50749949e6d23debfc7330ba3889cb0daeef53",
+      "format": "PNG",
+      "bytes": 1766711,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 28,
+      "productCode": "K-007144",
+      "itemSeq": "199801576",
+      "modelName": "레가론캡슐140(카르두스마리아누스엑스산)",
+      "relativePath": "028_K-007144/front.png",
+      "sourcePath": "data/sources/raw/K-007144/K-007144_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_4_단일.zip",
+        "labelMember": "K-007144_json/K-007144_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "0f1ffb62822e9bd802e7f4dc99c22bfb74cefc10ab39f55e9842c4df82539b60",
+      "pixelSha256": "4c293d6cd090118f4a16f24064bbe32bbc74bb08f37f40f41ae666e60b45f763",
+      "format": "PNG",
+      "bytes": 2188926,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 29,
+      "productCode": "K-007383",
+      "itemSeq": "199803076",
+      "modelName": "설포라제캡슐(아세브로필린)",
+      "relativePath": "029_K-007383/front.png",
+      "sourcePath": "data/sources/raw/K-007383/K-007383_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_4_단일.zip",
+        "labelMember": "K-007383_json/K-007383_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "86b60e1755564206b857f046d4a8fcb88eee5a216e5a20a2d453267feaba840a",
+      "pixelSha256": "9712f3cd256046fa9bc478580960b784fccdeb96a82512b3f785c1ffb65aaf35",
+      "format": "PNG",
+      "bytes": 1807875,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 30,
+      "productCode": "K-008026",
+      "itemSeq": "199902012",
+      "modelName": "메스티논정(피리도스티그민브롬화물)",
+      "relativePath": "030_K-008026/front.png",
+      "sourcePath": "data/sources/raw/K-008026/K-008026_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_32_단일.zip",
+        "labelMember": "K-008026_json/K-008026_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6cf7bbaec55745a438d4e4930b3f989655b0a0809f5cfb1f20a135556d12063d",
+      "pixelSha256": "798d484d442cc93555dca19687ba12379ae5ec6c91b3beeb2be669026db19bd7",
+      "format": "PNG",
+      "bytes": 2001728,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 31,
+      "productCode": "K-008223",
+      "itemSeq": "199903252",
+      "modelName": "실콘정(칼슘폴리카르보필)",
+      "relativePath": "031_K-008223/front.png",
+      "sourcePath": "data/sources/raw/K-008223/K-008223_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_5_단일.zip",
+        "labelMember": "K-008223_json/K-008223_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9d15ad47737abce502cfd070c9ec7b388979bdf7919264f7a97cf780ea89f7d6",
+      "pixelSha256": "3eeb1ab66929db2f24b1c8979ce8b27a4bff275fa0f95c614089c59b90ea1ea7",
+      "format": "PNG",
+      "bytes": 1945790,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 32,
+      "productCode": "K-008451",
+      "itemSeq": "199906953",
+      "modelName": "클래리시드엑스엘서방정 500mg",
+      "relativePath": "032_K-008451/front.png",
+      "sourcePath": "data/sources/raw/K-008451/K-008451_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_5_단일.zip",
+        "labelMember": "K-008451_json/K-008451_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9b506c9c2e6d65b255a3dd010bd322393513aceacb48a00954331e3f4c6dd3b6",
+      "pixelSha256": "7454590c747a202e8f42d940e198c152d54ebb9f7457f552058ebe08c95e24e7",
+      "format": "PNG",
+      "bytes": 1304766,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 33,
+      "productCode": "K-009002",
+      "itemSeq": "200001783",
+      "modelName": "케이콘틴서방정(염화칼륨)",
+      "relativePath": "033_K-009002/front.png",
+      "sourcePath": "data/sources/raw/K-009002/K-009002_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_5_단일.zip",
+        "labelMember": "K-009002_json/K-009002_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b53d00a303bc317e89b012e9c6e1076fb05cea1809a87bfa111cc4c032959e6c",
+      "pixelSha256": "287e9d21d9dad5c5bf047fb82fdf7e8dcaf1e44fea22cf918e1d0c09dcf55414",
+      "format": "PNG",
+      "bytes": 1106731,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 34,
+      "productCode": "K-010221",
+      "itemSeq": "200009023",
+      "modelName": "쎄로켈정 100mg",
+      "relativePath": "034_K-010221/front.png",
+      "sourcePath": "data/sources/raw/K-010221/K-010221_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_34_단일.zip",
+        "labelMember": "K-010221_json/K-010221_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "aa7f0bf7aefb09c9b98072ea75a06bf3860042c953eb3d7a941aa6e6fc3b6c34",
+      "pixelSha256": "76cee47720b4354d9ce78cd87badc62decfde039a6b991d9d320a13844fc1253",
+      "format": "PNG",
+      "bytes": 769967,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 35,
+      "productCode": "K-010224",
+      "itemSeq": "200009026",
+      "modelName": "넥시움정 40mg",
+      "relativePath": "035_K-010224/front.png",
+      "sourcePath": "data/sources/raw/K-010224/K-010224_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_5_단일.zip",
+        "labelMember": "K-010224_json/K-010224_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "1a2784a1b9ab7e98cce8731954fe0536ead685748d62432cbd8f5297b135657f",
+      "pixelSha256": "9b316f03ef5c738964a1bd3f447305aca3263dce7af7d4490154db068b1f22ee",
+      "format": "PNG",
+      "bytes": 1281689,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 36,
+      "productCode": "K-010487",
+      "itemSeq": "200100780",
+      "modelName": "동화덴스톨캡슐 150mg/PTP",
+      "relativePath": "036_K-010487/front.png",
+      "sourcePath": "data/sources/raw/K-010487/K-010487_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_35_단일.zip",
+        "labelMember": "K-010487_json/K-010487_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "56f6ef77ed5bb1e719bdc8ceb138a022f00d4edca615490295c73ca0c8344c73",
+      "pixelSha256": "a19c9aaa4368c20b31dec26c5caa54c7fc6e6ade4331a28bc55ee7ca4b76c9dd",
+      "format": "PNG",
+      "bytes": 1816196,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 37,
+      "productCode": "K-010769",
+      "itemSeq": "200101844",
+      "modelName": "잘젠정 30mg/PTP",
+      "relativePath": "037_K-010769/front.png",
+      "sourcePath": "data/sources/raw/K-010769/K-010769_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_6_단일.zip",
+        "labelMember": "K-010769_json/K-010769_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "5a2ebac7636e2dc66dde3c2a0f0e5202566b73c527ad2707eb9eac2f21e9201d",
+      "pixelSha256": "4f3936f30c771b8a08dd958bfb8d3a74726ca7924391b5b11d1d7934ba4f9f92",
+      "format": "PNG",
+      "bytes": 1544822,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 38,
+      "productCode": "K-011220",
+      "itemSeq": "200108429",
+      "modelName": "아스피린프로텍트정 100mg",
+      "relativePath": "038_K-011220/front.png",
+      "sourcePath": "data/sources/raw/K-011220/K-011220_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_6_단일.zip",
+        "labelMember": "K-011220_json/K-011220_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "28b49e8ce9c472b5796c3e3ac2184aaf6e43a56907c935ec071e23fc3fb77d51",
+      "pixelSha256": "00555f054a745da761112e41c6bb56103012ff390ef052e3dc68ca63a4902aa5",
+      "format": "PNG",
+      "bytes": 1770906,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 39,
+      "productCode": "K-011250",
+      "itemSeq": "200108739",
+      "modelName": "콩코르정 2.5mg",
+      "relativePath": "039_K-011250/front.png",
+      "sourcePath": "data/sources/raw/K-011250/K-011250_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_6_단일.zip",
+        "labelMember": "K-011250_json/K-011250_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "256580d222d7342030bd8d818ba3f6ed3b3600197c57fc4aa4d22ed463e353ea",
+      "pixelSha256": "4c0f1b5d3393140ddbf5fd9e748f04bca28f4ad9c02870025ca82eeda49d5e5e",
+      "format": "PNG",
+      "bytes": 1072118,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 40,
+      "productCode": "K-011543",
+      "itemSeq": "200200406",
+      "modelName": "이바내정 51.55mg/PTP",
+      "relativePath": "040_K-011543/front.png",
+      "sourcePath": "data/sources/raw/K-011543/K-011543_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_6_단일.zip",
+        "labelMember": "K-011543_json/K-011543_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "8d208133a08e8b5d1b4fdb7c3282ee306d11a300559ab6a15be0d7c605326e46",
+      "pixelSha256": "83d57c0b784da5a69b34d8dd9887ba55d8288414423cb3c3a577b2ffd54729a8",
+      "format": "PNG",
+      "bytes": 2380160,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 41,
+      "productCode": "K-011686",
+      "itemSeq": "200200909",
+      "modelName": "화인탈츄어블정 12.5mg/포",
+      "relativePath": "041_K-011686/front.png",
+      "sourcePath": "data/sources/raw/K-011686/K-011686_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_6_단일.zip",
+        "labelMember": "K-011686_json/K-011686_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "fa50aadb8f914826ee577f5cbc8f9b90ac4219925a34f7c1dfb3f796adb8cfe8",
+      "pixelSha256": "4f28b21cb258d8b6e440fb2a2ce1104e20ec32f9c0ffaddea271595504a0cf00",
+      "format": "PNG",
+      "bytes": 1666967,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 42,
+      "productCode": "K-012081",
+      "itemSeq": "200202194",
+      "modelName": "리렉스펜정 300mg/PTP",
+      "relativePath": "042_K-012081/front.png",
+      "sourcePath": "data/sources/raw/K-012081/K-012081_0_1_0_1_90_080_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_7_단일.zip",
+        "labelMember": "K-012081_json/K-012081_0_1_0_1_90_080_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "062f450aaa885d0fb688e735f9ee83aa4b8658f123e8d56ed49453503d9970ee",
+      "pixelSha256": "881672211c5d5eab3d54b87fedf1ed4d3cd07354e835869d268cacbd6f5ada9f",
+      "format": "PNG",
+      "bytes": 1766497,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 43,
+      "productCode": "K-012247",
+      "itemSeq": "200202889",
+      "modelName": "아빌리파이정 10mg",
+      "relativePath": "043_K-012247/front.png",
+      "sourcePath": "data/sources/raw/K-012247/K-012247_0_0_0_2_75_180_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_37_단일.zip",
+        "labelMember": "K-012247_json/K-012247_0_0_0_2_75_180_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "bc21e81dd0e44714f9325c936702c0ebebd88e1f6f581c7cf85717a0492e4950",
+      "pixelSha256": "b6959cf2a447a02d52559a2933d5e440e0ee01dd0f5c2dabffc818cb9d9c3db7",
+      "format": "PNG",
+      "bytes": 1016571,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 44,
+      "productCode": "K-012420",
+      "itemSeq": "200209622",
+      "modelName": "자이프렉사정 2.5mg",
+      "relativePath": "044_K-012420/front.png",
+      "sourcePath": "data/sources/raw/K-012420/K-012420_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_7_단일.zip",
+        "labelMember": "K-012420_json/K-012420_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "2ce9a66a67b70f7b405a2e05fb2004dab609b682e4a6f83c0eaa5f1ec6d46b97",
+      "pixelSha256": "c4e4703d858c5d2ae40c861c30fc513e66641e9c6fe64d2409ade19dcfed5d30",
+      "format": "PNG",
+      "bytes": 1908943,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 45,
+      "productCode": "K-012638",
+      "itemSeq": "200300092",
+      "modelName": "투스딘골드캡슐 150mg/PTP",
+      "relativePath": "045_K-012638/front.png",
+      "sourcePath": "data/sources/raw/K-012638/K-012638_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_37_단일.zip",
+        "labelMember": "K-012638_json/K-012638_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9932c478b6e9810f2efc92e8f18df70438010df2c76ebcba44aefbf2c25c1067",
+      "pixelSha256": "96c3ec153a849f0688e1c51248ad32a726efcbf7f348691db1c5b367b726b891",
+      "format": "PNG",
+      "bytes": 1816806,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 46,
+      "productCode": "K-013004",
+      "itemSeq": "200300913",
+      "modelName": "이가탄에프캡슐 150mg/PTP",
+      "relativePath": "046_K-013004/front.png",
+      "sourcePath": "data/sources/raw/K-013004/K-013004_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_38_단일.zip",
+        "labelMember": "K-013004_json/K-013004_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "3b6cf66fbc6bfb1b62f523833302cdb2d02e23bf30a74c12b2971ff02f997e30",
+      "pixelSha256": "a8b299d36eb7232b24aa79b62731d8a43e2573ec7f2fd842035a37ed8f21020a",
+      "format": "PNG",
+      "bytes": 1878998,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 47,
+      "productCode": "K-013395",
+      "itemSeq": "200301818",
+      "modelName": "써스펜8시간이알서방정 650mg",
+      "relativePath": "047_K-013395/front.png",
+      "sourcePath": "data/sources/raw/K-013395/K-013395_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_7_단일.zip",
+        "labelMember": "K-013395_json/K-013395_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a259e490e907f86285169d373c529f728336305b506c155121b24ec31f03781b",
+      "pixelSha256": "4bc3fe2759c0732fbc0ce0ac8cd645d8ab30508145d78c217d1098f770d94cce",
+      "format": "PNG",
+      "bytes": 1349767,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 48,
+      "productCode": "K-013905",
+      "itemSeq": "200308343",
+      "modelName": "이소켓서방정 40mg",
+      "relativePath": "048_K-013905/front.png",
+      "sourcePath": "data/sources/raw/K-013905/K-013905_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_8_단일.zip",
+        "labelMember": "K-013905_json/K-013905_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6cf1980cf4dafa71739d7bf53ae338c8cc481bd3086cdf39af84375acd776f78",
+      "pixelSha256": "80dfc4764e13e7ece0d2bda2a77a34d6c7c46e616c8b4545378f5938942e3868",
+      "format": "PNG",
+      "bytes": 1950529,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 49,
+      "productCode": "K-014409",
+      "itemSeq": "200400872",
+      "modelName": "비타콤비500정 515.46mg",
+      "relativePath": "049_K-014409/front.png",
+      "sourcePath": "data/sources/raw/K-014409/K-014409_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_8_단일.zip",
+        "labelMember": "K-014409_json/K-014409_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "1f4a532feb62f72ef937456c13b7e24ecba2e5fb312f39e81d4923a614367fe9",
+      "pixelSha256": "f36202c5247c81ea27a136d585421961f82f027de642f6913a2b1055bd91888a",
+      "format": "PNG",
+      "bytes": 2129310,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 50,
+      "productCode": "K-015236",
+      "itemSeq": "200402560",
+      "modelName": "다우제큐정 10mg/PTP",
+      "relativePath": "050_K-015236/front.png",
+      "sourcePath": "data/sources/raw/K-015236/K-015236_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_8_단일.zip",
+        "labelMember": "K-015236_json/K-015236_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "548556c4a91be7e8f6f3c4c791a86daeb9e1f0cd6913f447fd542f6dd02dedc2",
+      "pixelSha256": "cd275c40ffe3760074b05e8a39799e375ff4257dcdbe2407c4e3576af08eaa82",
+      "format": "PNG",
+      "bytes": 1542612,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 51,
+      "productCode": "K-015280",
+      "itemSeq": "200402674",
+      "modelName": "한미탐스캡슐 0.2mg",
+      "relativePath": "051_K-015280/front.png",
+      "sourcePath": "data/sources/raw/K-015280/K-015280_0_2_0_2_90_040_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_42_단일.zip",
+        "labelMember": "K-015280_json/K-015280_0_2_0_2_90_040_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6765bcd317bdfbc43f2b99da445a337dcdd4706a1de7862ac243d1f95e6dc7ee",
+      "pixelSha256": "1936f30eef1296ec25d24874b964092ef397152511359be1b496a34e0a781fc6",
+      "format": "PNG",
+      "bytes": 1794475,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 52,
+      "productCode": "K-015710",
+      "itemSeq": "200403500",
+      "modelName": "엔테론정 150mg",
+      "relativePath": "052_K-015710/front.png",
+      "sourcePath": "data/sources/raw/K-015710/K-015710_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_43_단일.zip",
+        "labelMember": "K-015710_json/K-015710_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "1ba816b72093de70c88422e9ddc34b7996cad8a1729c03e9a3e1a2c823dd67a4",
+      "pixelSha256": "fa14c7cbd8bb7c985ad4c19ca0bdfa85dfde1da1abe10c0a61870ca05f340d6f",
+      "format": "PNG",
+      "bytes": 1989649,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 53,
+      "productCode": "K-016206",
+      "itemSeq": "200409982",
+      "modelName": "아보다트연질캡슐 0.5mg",
+      "relativePath": "053_K-016206/front.png",
+      "sourcePath": "data/sources/raw/K-016206/K-016206_0_2_0_2_75_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_44_단일.zip",
+        "labelMember": "K-016206_json/K-016206_0_2_0_2_75_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9ad7816f3765cf91c97959769bced11a10e3ea98b1b84bacf34d0d23312c4423",
+      "pixelSha256": "2896fa3e22b2ade3af61b85ac81ed44114c755c2b00ea70337175964e9c9262b",
+      "format": "PNG",
+      "bytes": 1819899,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 54,
+      "productCode": "K-016232",
+      "itemSeq": "200410085",
+      "modelName": "리피토정 20mg",
+      "relativePath": "054_K-016232/front.png",
+      "sourcePath": "data/sources/raw/K-016232/K-016232_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_44_단일.zip",
+        "labelMember": "K-016232_json/K-016232_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7644b11cd2217832953f7984219064bea0afbe6e623b2c156d9f094d9ca88d86",
+      "pixelSha256": "f366b7bb6499cfa5983d9a34c0f20a0ff3386d986ca9185b05756c7e61eddc20",
+      "format": "PNG",
+      "bytes": 1891273,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 55,
+      "productCode": "K-016235",
+      "itemSeq": "200410088",
+      "modelName": "카듀엣정 5mg/20mg",
+      "relativePath": "055_K-016235/front.png",
+      "sourcePath": "data/sources/raw/K-016235/K-016235_0_1_0_2_75_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_8_단일.zip",
+        "labelMember": "K-016235_json/K-016235_0_1_0_2_75_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "3ecd007a81abc36a2d38d66c56fa9247920e0e872d6c835659571fac59f43405",
+      "pixelSha256": "bdcdb0bc154b52451fedda3a2e74deafb554b9899e71095bb3be33bd53eb1c0c",
+      "format": "PNG",
+      "bytes": 1830686,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 56,
+      "productCode": "K-016262",
+      "itemSeq": "200410326",
+      "modelName": "크레스토정 20mg",
+      "relativePath": "056_K-016262/front.png",
+      "sourcePath": "data/sources/raw/K-016262/K-016262_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_44_단일.zip",
+        "labelMember": "K-016262_json/K-016262_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "d6ec90c6821140bcc559d1591942ce82501f0510462e13877913c895c50922b7",
+      "pixelSha256": "59e7f80bdbafadca1d21c3f6f3df49a86977d8165b46a12745070ad1d7c60f6b",
+      "format": "PNG",
+      "bytes": 2117679,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 57,
+      "productCode": "K-016551",
+      "itemSeq": "200500254",
+      "modelName": "동아가바펜틴정 800mg",
+      "relativePath": "057_K-016551/front.png",
+      "sourcePath": "data/sources/raw/K-016551/K-016551_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_9_단일.zip",
+        "labelMember": "K-016551_json/K-016551_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7fb8676999e12490a6613ce5b4ec03217e1fea14bc11828571696d8c5c708bc9",
+      "pixelSha256": "180197c5c7e2db21a8ea69913cdd9471c50be1d04a153476bbd8be711641f897",
+      "format": "PNG",
+      "bytes": 1217316,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 58,
+      "productCode": "K-016688",
+      "itemSeq": "200500497",
+      "modelName": "오마코연질캡슐(오메가-3-산에틸에스테르90)",
+      "relativePath": "058_K-016688/front.png",
+      "sourcePath": "data/sources/raw/K-016688/K-016688_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_45_단일.zip",
+        "labelMember": "K-016688_json/K-016688_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "dd7740240fba25bfbd4fc499e20c99a636012ee56a5ab882276f978b0c38a16c",
+      "pixelSha256": "52516753a4f21a928e892d700cad767f195e04bfbd0322e5c6c897d1cbd6dee2",
+      "format": "PNG",
+      "bytes": 1804845,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 59,
+      "productCode": "K-017668",
+      "itemSeq": "200502474",
+      "modelName": "브로다제장용정(브로멜라인)",
+      "relativePath": "059_K-017668/front.png",
+      "sourcePath": "data/sources/raw/K-017668/K-017668_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_9_단일.zip",
+        "labelMember": "K-017668_json/K-017668_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "dd23a5d2bb094e24c40c0c377de17f0a64522308cd98bc2ad7969e58b1b84b75",
+      "pixelSha256": "0c48e237cb5dd545cf6cb5f828708ce579364010f49933afd14b3977a4aa7a2e",
+      "format": "PNG",
+      "bytes": 1881606,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 60,
+      "productCode": "K-018110",
+      "itemSeq": "200510974",
+      "modelName": "란스톤엘에프디티정 30mg",
+      "relativePath": "060_K-018110/front.png",
+      "sourcePath": "data/sources/raw/K-018110/K-018110_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_9_단일.zip",
+        "labelMember": "K-018110_json/K-018110_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "43023fb30f31a8daa2d909ea2ee2f4fa6c47c2ccecd6b38ce198d5ba8d1f416b",
+      "pixelSha256": "f534b64fd3720a6a3e91f4950d3f7e3fb0f76a0897387f6b424df0c3592872c8",
+      "format": "PNG",
+      "bytes": 2039806,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 61,
+      "productCode": "K-018147",
+      "itemSeq": "200511058",
+      "modelName": "리리카캡슐 150mg",
+      "relativePath": "061_K-018147/front.png",
+      "sourcePath": "data/sources/raw/K-018147/K-018147_0_0_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_47_단일.zip",
+        "labelMember": "K-018147_json/K-018147_0_0_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "87dfb43d13191069a2083aa7e71b38a194b44acc16458fbaae0ec97b3a5b5cf8",
+      "pixelSha256": "89da7c58e0fd228e3bdd75540b8c4e6af18c62e6b3e57af5fb24215ea56fba40",
+      "format": "PNG",
+      "bytes": 1237275,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 62,
+      "productCode": "K-018203",
+      "itemSeq": "200511293",
+      "modelName": "오큐바이트프리저비전정 200mg/병",
+      "relativePath": "062_K-018203/front.png",
+      "sourcePath": "data/sources/raw/K-018203/K-018203_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_9_단일.zip",
+        "labelMember": "K-018203_json/K-018203_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6a570ee22a7c36300965cf101ad24f51d367f7c2723c733b9d8c639a5997cb95",
+      "pixelSha256": "c62139c4957c0e0238de0f36e8cef2d04d4e71ed51fb21519faf36764e03f13f",
+      "format": "PNG",
+      "bytes": 1984079,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 63,
+      "productCode": "K-018357",
+      "itemSeq": "200600026",
+      "modelName": "종근당글리아티린연질캡슐(콜린알포세레이트)",
+      "relativePath": "063_K-018357/front.png",
+      "sourcePath": "data/sources/raw/K-018357/K-018357_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_48_단일.zip",
+        "labelMember": "K-018357_json/K-018357_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "5167ab6de36f7ae8560f2e75669b8733d30dc42519886417d9867188f27caaa3",
+      "pixelSha256": "ab58e242d96251e489ac634fde988b85b2a94347bf3bcfde6a9db411055a88b8",
+      "format": "PNG",
+      "bytes": 1786717,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 64,
+      "productCode": "K-019161",
+      "itemSeq": "200605262",
+      "modelName": "바라크루드정 0.5mg",
+      "relativePath": "064_K-019161/front.png",
+      "sourcePath": "data/sources/raw/K-019161/K-019161_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_9_단일.zip",
+        "labelMember": "K-019161_json/K-019161_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b59656888a439de848934c071f2bb99c2eb98cf43fe346782ba4d19650f24c16",
+      "pixelSha256": "bf8bcb7b5b38c152625a93362d806dbe2938730bb955f79d59992ec03a29af79",
+      "format": "PNG",
+      "bytes": 1766744,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 65,
+      "productCode": "K-019232",
+      "itemSeq": "200605445",
+      "modelName": "콜리네이트연질캡슐 400mg",
+      "relativePath": "065_K-019232/front.png",
+      "sourcePath": "data/sources/raw/K-019232/K-019232_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_48_단일.zip",
+        "labelMember": "K-019232_json/K-019232_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7efb5326459f5333042cc77ee1c1c87190309f46177f1429bcd6ff443986f729",
+      "pixelSha256": "9b42c0d4c69ac87430d1e808b8b9ea8a2744ac7c839c71c41d2005002bd92ee8",
+      "format": "PNG",
+      "bytes": 1791172,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 66,
+      "productCode": "K-019607",
+      "itemSeq": "200607849",
+      "modelName": "스토가정 10mg",
+      "relativePath": "066_K-019607/front.png",
+      "sourcePath": "data/sources/raw/K-019607/K-019607_0_0_0_2_75_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_49_단일.zip",
+        "labelMember": "K-019607_json/K-019607_0_0_0_2_75_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f4b20f65efc0e619406d74f9468212dce43bfe9bb09641c3bc2cea254135c1cd",
+      "pixelSha256": "54178f67ace241b7652dfc1acf60501e8bcf2fe5bdfbe87ef40e715c22b70b8d",
+      "format": "PNG",
+      "bytes": 1005507,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 67,
+      "productCode": "K-019790",
+      "itemSeq": "200608307",
+      "modelName": "클로미딘정 100mg/병",
+      "relativePath": "067_K-019790/front.png",
+      "sourcePath": "data/sources/raw/K-019790/K-019790_0_0_0_2_75_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_10_단일.zip",
+        "labelMember": "K-019790_json/K-019790_0_0_0_2_75_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "fb8aff43aa44bc04a6816a5b5783bf16f2002959d276ca822d98c8c194b627da",
+      "pixelSha256": "602f4945d6a6794ef2d51d7edf79d2268fc4e729280b27decf7316c6ad68dcc1",
+      "format": "PNG",
+      "bytes": 1281606,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 68,
+      "productCode": "K-019861",
+      "itemSeq": "200610660",
+      "modelName": "노바스크정 5mg",
+      "relativePath": "068_K-019861/front.png",
+      "sourcePath": "data/sources/raw/K-019861/K-019861_0_0_0_2_90_040_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_10_단일.zip",
+        "labelMember": "K-019861_json/K-019861_0_0_0_2_90_040_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "33828da1047321cbcfb537b81d859ffc60c1b69df612e6df825229629d3de20c",
+      "pixelSha256": "fd16dc03f5facc60fe59285c3ee2254f8cd3f12e9d9da0a049af84830f6b7373",
+      "format": "PNG",
+      "bytes": 844557,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 69,
+      "productCode": "K-019881",
+      "itemSeq": "200610765",
+      "modelName": "지르텍정(세티리진염산염)",
+      "relativePath": "069_K-019881/front.png",
+      "sourcePath": "data/sources/raw/K-019881/K-019881_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_49_단일.zip",
+        "labelMember": "K-019881_json/K-019881_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f95e0c6ec951ca3564360352bd782f5f9a4d2a1be32c21695a3b28f99f7545c6",
+      "pixelSha256": "e0df8cd0156e41ab07a5ba26c1a8103e28aaae139e9af21472ee3bc42849ff46",
+      "format": "PNG",
+      "bytes": 797551,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 70,
+      "productCode": "K-020014",
+      "itemSeq": "200611524",
+      "modelName": "마도파정",
+      "relativePath": "070_K-020014/front.png",
+      "sourcePath": "data/sources/raw/K-020014/K-020014_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_10_단일.zip",
+        "labelMember": "K-020014_json/K-020014_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "073d4f99bb2233b2c8c575be06de19ca652665efa28e3ad3a1adba75cd49bbf2",
+      "pixelSha256": "72857243fb372988b01d2f9863bb2b8c0c86355d18f6a4ffab9bd19e39c0b8dc",
+      "format": "PNG",
+      "bytes": 2118895,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 71,
+      "productCode": "K-020238",
+      "itemSeq": "200700907",
+      "modelName": "플라빅스정 75mg",
+      "relativePath": "071_K-020238/front.png",
+      "sourcePath": "data/sources/raw/K-020238/K-020238_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_50_단일.zip",
+        "labelMember": "K-020238_json/K-020238_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "e46bc1a55cf4856786a057f7b59255b511eee8c09bf7a8fde2e6857fb32f583d",
+      "pixelSha256": "f3cef6803dee2ae97e06bd8afcc02934a092ec8bc52a8e784faa75eb6bf5ea5b",
+      "format": "PNG",
+      "bytes": 1053006,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 72,
+      "productCode": "K-020259",
+      "itemSeq": "200701034",
+      "modelName": "자트랄엑스엘정 10mg",
+      "relativePath": "072_K-020259/front.png",
+      "sourcePath": "data/sources/raw/K-020259/K-020259_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_50_단일.zip",
+        "labelMember": "K-020259_json/K-020259_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "d82878cdcde21ae1cce8eb59d7dce7761d8fcf2b81831e5952169f52a5da127a",
+      "pixelSha256": "1e8e06f58ee0ea1225e9e94deb21429191aec91692d73cf0a3f5837fe4d1d5fc",
+      "format": "PNG",
+      "bytes": 979178,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 73,
+      "productCode": "K-020753",
+      "itemSeq": "200703215",
+      "modelName": "인사돌플러스정 35mg/PTP",
+      "relativePath": "073_K-020753/front.png",
+      "sourcePath": "data/sources/raw/K-020753/K-020753_0_0_0_1_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_50_단일.zip",
+        "labelMember": "K-020753_json/K-020753_0_0_0_1_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a53fc0827a88b77be123bae30497b40e1c5bcbd36601953e74801d296093b7d2",
+      "pixelSha256": "577c0afc278a7142a639180e315f3e113a664be3b8c3f118f59465caff4aeeb2",
+      "format": "PNG",
+      "bytes": 1321752,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 74,
+      "productCode": "K-020852",
+      "itemSeq": "200703673",
+      "modelName": "베시케어정 10mg",
+      "relativePath": "074_K-020852/front.png",
+      "sourcePath": "data/sources/raw/K-020852/K-020852_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_50_단일.zip",
+        "labelMember": "K-020852_json/K-020852_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "06f4d32565153254fd1ce6b1df6fb568eac12b9f53398c406530aaa63715f039",
+      "pixelSha256": "61b61df43cd669f0bb1ea57a02b2197fc98e737993d7dd35b4a498a865558ef7",
+      "format": "PNG",
+      "bytes": 2012865,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 75,
+      "productCode": "K-020877",
+      "itemSeq": "200703803",
+      "modelName": "엑스포지정 5/160mg",
+      "relativePath": "075_K-020877/front.png",
+      "sourcePath": "data/sources/raw/K-020877/K-020877_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_10_단일.zip",
+        "labelMember": "K-020877_json/K-020877_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6cc765ffcd12fa7b9ff0620ee067573efc62944f30810901072315107999764d",
+      "pixelSha256": "eb4e01c58588cf85691fb71bf0056cc36afd8a6e7717b0be24235ea69bb2db72",
+      "format": "PNG",
+      "bytes": 1067345,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 76,
+      "productCode": "K-021026",
+      "itemSeq": "200704590",
+      "modelName": "펠루비정(펠루비프로펜)",
+      "relativePath": "076_K-021026/front.png",
+      "sourcePath": "data/sources/raw/K-021026/K-021026_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_51_단일.zip",
+        "labelMember": "K-021026_json/K-021026_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "84473d72215b59f09f8032cdb589245736809f248b6a039d23a5395111ebbf48",
+      "pixelSha256": "4eb80e04983a7f2ddb7031eaf6b65e22deca1f350014697874baf1aa6106cfee",
+      "format": "PNG",
+      "bytes": 1096597,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 77,
+      "productCode": "K-021325",
+      "itemSeq": "200705992",
+      "modelName": "아토르바정 10mg",
+      "relativePath": "077_K-021325/front.png",
+      "sourcePath": "data/sources/raw/K-021325/K-021325_0_0_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_51_단일.zip",
+        "labelMember": "K-021325_json/K-021325_0_0_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "e95fca1ba39da52045b563eeed7ebd1ab7b470af23d892bbadbecc4ab143bea2",
+      "pixelSha256": "f8ef27ae267099dd0d387668c00eea477c490341035b5e6ff7ceddc342236309",
+      "format": "PNG",
+      "bytes": 1059310,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 78,
+      "productCode": "K-021771",
+      "itemSeq": "200708376",
+      "modelName": "라비에트정 20mg",
+      "relativePath": "078_K-021771/front.png",
+      "sourcePath": "data/sources/raw/K-021771/K-021771_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_51_단일.zip",
+        "labelMember": "K-021771_json/K-021771_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c8397fafd02f08bffc7bba2a548f206b44fb21a8f894384408a893cb1a312c6c",
+      "pixelSha256": "4068e18c9cdd4d0525c1ca27852dc58727be6ae1b271370012501b8b0ca512e6",
+      "format": "PNG",
+      "bytes": 1731860,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 79,
+      "productCode": "K-022074",
+      "itemSeq": "200709390",
+      "modelName": "리피로우정 20mg",
+      "relativePath": "079_K-022074/front.png",
+      "sourcePath": "data/sources/raw/K-022074/K-022074_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_52_단일.zip",
+        "labelMember": "K-022074_json/K-022074_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "94ab55273a712f6a9ed0b57aff19eefe54b6ef3cd4e04a17377e0682deb32c78",
+      "pixelSha256": "5389f1958b1f2ca47df9a4d55a0b41b2a65e4c9669ad9d8410a316b21be5a67a",
+      "format": "PNG",
+      "bytes": 1972337,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 80,
+      "productCode": "K-022347",
+      "itemSeq": "200710758",
+      "modelName": "자누비아정 50mg",
+      "relativePath": "080_K-022347/front.png",
+      "sourcePath": "data/sources/raw/K-022347/K-022347_0_2_0_2_90_080_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_52_단일.zip",
+        "labelMember": "K-022347_json/K-022347_0_2_0_2_90_080_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "2f1aa9236cddb9f96f8fbd7f81ef88b7c04413b5cb43997d3568825e1cf3ca12",
+      "pixelSha256": "aa39cad6e66733f6b275380bd525d64b7a18652104e48feb87f69edc6d2e903d",
+      "format": "PNG",
+      "bytes": 2047795,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 81,
+      "productCode": "K-022362",
+      "itemSeq": "200710817",
+      "modelName": "맥시부펜이알정 300mg",
+      "relativePath": "081_K-022362/front.png",
+      "sourcePath": "data/sources/raw/K-022362/K-022362_0_1_0_2_90_080_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_10_단일.zip",
+        "labelMember": "K-022362_json/K-022362_0_1_0_2_90_080_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "dd13eda8cf294e1c071c58e30ca05e0aa6b05a0df87f077483041fbd4ab6395d",
+      "pixelSha256": "77540e0d7626845564ec37ed59a9cd3f023e2e5f4c392c4a3ff871085f186df0",
+      "format": "PNG",
+      "bytes": 1867388,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 82,
+      "productCode": "K-023203",
+      "itemSeq": "200802023",
+      "modelName": "쿠에타핀정 25mg",
+      "relativePath": "082_K-023203/front.png",
+      "sourcePath": "data/sources/raw/K-023203/K-023203_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_53_단일.zip",
+        "labelMember": "K-023203_json/K-023203_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9bf160f3affb428f62405ca4033c02b9d7a95c1dd5be2162c663bec72b4c32a3",
+      "pixelSha256": "b252fe96d18a135daf6193d69aab94079a734f4a01022f5cc12b9bbcd7653a74",
+      "format": "PNG",
+      "bytes": 2098987,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 83,
+      "productCode": "K-023223",
+      "itemSeq": "200802213",
+      "modelName": "비타비백정 100mg/병",
+      "relativePath": "083_K-023223/front.png",
+      "sourcePath": "data/sources/raw/K-023223/K-023223_0_2_0_1_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_53_단일.zip",
+        "labelMember": "K-023223_json/K-023223_0_2_0_1_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "eabe9e67e7d6ecde2cf82b755cf64c48993314049cc5855cec7969e5ebd0152b",
+      "pixelSha256": "030d7f0dd7619b4daf85aad69df0b28cfc56dedf4934b597a8ce55a83a9b6078",
+      "format": "PNG",
+      "bytes": 2278286,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 84,
+      "productCode": "K-023319",
+      "itemSeq": "200802864",
+      "modelName": "디카맥스디플러스정",
+      "relativePath": "084_K-023319/front.png",
+      "sourcePath": "data/sources/raw/K-023319/K-023319_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_54_단일.zip",
+        "labelMember": "K-023319_json/K-023319_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "0fbf303394a57bd4bb58871e650b289936b368722b20d014babadf4034180b70",
+      "pixelSha256": "ea46a5a318eec131009b95a7edc72b9144356d092fcac57c93c29a87f8c77914",
+      "format": "PNG",
+      "bytes": 2346410,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 85,
+      "productCode": "K-024584",
+      "itemSeq": "200809204",
+      "modelName": "구아내정 10mg/PTP",
+      "relativePath": "085_K-024584/front.png",
+      "sourcePath": "data/sources/raw/K-024584/K-024584_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_11_단일.zip",
+        "labelMember": "K-024584_json/K-024584_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "bcb61aad1d5d5ed5ad13b848c5a04dc10ea3ff0b51b00fbef0b4399e3b4e60f0",
+      "pixelSha256": "309ecac9b90ebdbd102eee3c28fd2df080b7390098454cfd45cb46dcbbfa2326",
+      "format": "PNG",
+      "bytes": 2211012,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 86,
+      "productCode": "K-024752",
+      "itemSeq": "200810113",
+      "modelName": "토비애즈서방정 4mg",
+      "relativePath": "086_K-024752/front.png",
+      "sourcePath": "data/sources/raw/K-024752/K-024752_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_11_단일.zip",
+        "labelMember": "K-024752_json/K-024752_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "84a3d50bf94f61ed0c1236ad24aaef896ead09165f409927a92f01ba88e88ddf",
+      "pixelSha256": "11034f455c672dd2935375044851d20f9156fc0acc90aa8365bf23e9fd8618ec",
+      "format": "PNG",
+      "bytes": 2125430,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 87,
+      "productCode": "K-024850",
+      "itemSeq": "200810688",
+      "modelName": "놀텍정 10mg",
+      "relativePath": "087_K-024850/front.png",
+      "sourcePath": "data/sources/raw/K-024850/K-024850_0_0_0_2_75_100_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_56_단일.zip",
+        "labelMember": "K-024850_json/K-024850_0_0_0_2_75_100_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "123f2c548ce2d3063f145e192ad10ad932857ca19aa2da0bf8468cb933b3ac87",
+      "pixelSha256": "a0f67023621e91cfabd4ecdeac205ccaf1671b10e129f46c84b6641f8f945ce1",
+      "format": "PNG",
+      "bytes": 916456,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 88,
+      "productCode": "K-024941",
+      "itemSeq": "200811061",
+      "modelName": "액티프롤정 60mg/PTP",
+      "relativePath": "088_K-024941/front.png",
+      "sourcePath": "data/sources/raw/K-024941/K-024941_0_2_0_1_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_56_단일.zip",
+        "labelMember": "K-024941_json/K-024941_0_2_0_1_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "fb6d0c3b8d6c72bff1827a6e9f3ae966f750f2e7cc0a7f80cf45c894f994765c",
+      "pixelSha256": "4a4b2e21eaf4f8cf0b591f579d55c49352cfb033e8282fc56eb6aac0ca1d1158",
+      "format": "PNG",
+      "bytes": 1627164,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 89,
+      "productCode": "K-025194",
+      "itemSeq": "200900767",
+      "modelName": "스토마신캡슐 500mg/PTP",
+      "relativePath": "089_K-025194/front.png",
+      "sourcePath": "data/sources/raw/K-025194/K-025194_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-025194_json/K-025194_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c149ab7206d28135d9728a827e2a4286468769d83df237c5c72e1976d7607748",
+      "pixelSha256": "4621241ceb0f6dc0b966d131ae032eb2bc72a32dae260ae1f19b23bbe616290f",
+      "format": "PNG",
+      "bytes": 1858465,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 90,
+      "productCode": "K-025200",
+      "itemSeq": "200900833",
+      "modelName": "마이칼디정",
+      "relativePath": "090_K-025200/front.png",
+      "sourcePath": "data/sources/raw/K-025200/K-025200_0_0_0_2_90_100_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-025200_json/K-025200_0_0_0_2_90_100_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "5594a973e857d6480575d5e676c005a3925953be04c9c87d4b4c2d683eb1728c",
+      "pixelSha256": "6c4021af63488e41252f08d6872dac3617c3188781fecbccbfa3fa3d15d47bd3",
+      "format": "PNG",
+      "bytes": 1340628,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 91,
+      "productCode": "K-025367",
+      "itemSeq": "200901817",
+      "modelName": "자누메트정 50/850mg",
+      "relativePath": "091_K-025367/front.png",
+      "sourcePath": "data/sources/raw/K-025367/K-025367_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-025367_json/K-025367_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "11a0140bd487354abfb24a955a185fb72e0a30b50b1344a80b342e67486934b5",
+      "pixelSha256": "992d8d6ebe519a198f56503bd8815aa3c9960a97d64117b96f766ce1ef2064f2",
+      "format": "PNG",
+      "bytes": 1911872,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 92,
+      "productCode": "K-025438",
+      "itemSeq": "200902214",
+      "modelName": "큐시드정 31.5mg/PTP",
+      "relativePath": "092_K-025438/front.png",
+      "sourcePath": "data/sources/raw/K-025438/K-025438_0_2_0_2_90_080_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-025438_json/K-025438_0_2_0_2_90_080_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "596a6fab2965933f3c0d766a7308514ed5c5408858675e816f28feacea855768",
+      "pixelSha256": "d2d9142dee36360bac7214cff9e1b263fe6878ecc0c570e7d7e8c91b4eb8b2e4",
+      "format": "PNG",
+      "bytes": 2127721,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 93,
+      "productCode": "K-025469",
+      "itemSeq": "200902349",
+      "modelName": "아모잘탄정 5/100mg",
+      "relativePath": "093_K-025469/front.png",
+      "sourcePath": "data/sources/raw/K-025469/K-025469_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-025469_json/K-025469_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c87f45d68da203a7312125c9fd1ca08f4c6e997023444ae3b0cf853f0e522779",
+      "pixelSha256": "abd932f70c0c232fad5684eb5ec1a117794947a58d3062e9f16567b420de65c2",
+      "format": "PNG",
+      "bytes": 1370207,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 94,
+      "productCode": "K-025894",
+      "itemSeq": "200904445",
+      "modelName": "페브릭정 80mg",
+      "relativePath": "094_K-025894/front.png",
+      "sourcePath": "data/sources/raw/K-025894/K-025894_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-025894_json/K-025894_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "fd2cdaa3530d0feeaa97fa65d7c7d433cf2eacbb83fc410996279d66ad932351",
+      "pixelSha256": "dd1342e3133ed56a6aa4baf62e54c0b8c98642bfb6baf9a95ab030faeac7642f",
+      "format": "PNG",
+      "bytes": 1917517,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 95,
+      "productCode": "K-026455",
+      "itemSeq": "200905692",
+      "modelName": "클라리틴정(로라타딘)",
+      "relativePath": "095_K-026455/front.png",
+      "sourcePath": "data/sources/raw/K-026455/K-026455_0_0_0_2_90_080_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_58_단일.zip",
+        "labelMember": "K-026455_json/K-026455_0_0_0_2_90_080_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "04607051c20fc389582d3e7e4fba30dfecb59ef8a1eb38acac8093adc7e3d52d",
+      "pixelSha256": "c963e5f9577c18ab97b2e402186095936abc25acf95ac3a9ceef2e2f2071fc4f",
+      "format": "PNG",
+      "bytes": 1095010,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 96,
+      "productCode": "K-026561",
+      "itemSeq": "200905943",
+      "modelName": "알졸타정400mg/PTP",
+      "relativePath": "096_K-026561/front.png",
+      "sourcePath": "data/sources/raw/K-026561/K-026561_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-026561_json/K-026561_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "e3eac4e2ae13f20a90b14ce8d9e9a9585cb7e8aa4cce5f7956ba915201795d62",
+      "pixelSha256": "9e6ee132d02553e076623f8661c16f3f3ce97ba0ba6b70362f3bbb0e8208f9a0",
+      "format": "PNG",
+      "bytes": 1153551,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 97,
+      "productCode": "K-026632",
+      "itemSeq": "200906478",
+      "modelName": "둘코락스에스장용정 5mg/PTP",
+      "relativePath": "097_K-026632/front.png",
+      "sourcePath": "data/sources/raw/K-026632/K-026632_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_59_단일.zip",
+        "labelMember": "K-026632_json/K-026632_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a1c5ed214af7cd913e28b89884ac7ea5daac085d706cc5386296585305c1e943",
+      "pixelSha256": "8625463c76fb141322555d18f9ea66395511e375ce6c6774e221b9f3d7e2c5ed",
+      "format": "PNG",
+      "bytes": 1828450,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 98,
+      "productCode": "K-026993",
+      "itemSeq": "201000406",
+      "modelName": "원더칼-디츄어블정",
+      "relativePath": "098_K-026993/front.png",
+      "sourcePath": "data/sources/raw/K-026993/K-026993_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_12_단일.zip",
+        "labelMember": "K-026993_json/K-026993_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "ac534ea563def7b1f917343cb750d88be3792d045334eeec7e135952878f76b9",
+      "pixelSha256": "b5d77d18fb0b6edaf5f6a231071e6e79df44cceee09ef18372630fb644999ec8",
+      "format": "PNG",
+      "bytes": 1099055,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 99,
+      "productCode": "K-027653",
+      "itemSeq": "201004570",
+      "modelName": "세비카정 10/40mg",
+      "relativePath": "099_K-027653/front.png",
+      "sourcePath": "data/sources/raw/K-027653/K-027653_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_60_단일.zip",
+        "labelMember": "K-027653_json/K-027653_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "366ab5d040a75c2ec343098fed2d2ba52e8764f35a5c2511a02731c41f0ed76f",
+      "pixelSha256": "1d53c0df7ba45aef304c3b4229f6ac713b19f128d2e79a2f4c3bb7cdd35957d0",
+      "format": "PNG",
+      "bytes": 1320109,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 100,
+      "productCode": "K-027733",
+      "itemSeq": "201005081",
+      "modelName": "트윈스타정 40/5mg",
+      "relativePath": "100_K-027733/front.png",
+      "sourcePath": "data/sources/raw/K-027733/K-027733_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-027733_json/K-027733_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "015965eb45844613ad3f4e786d508c0707a0b1f4fd21fef500b7fbeafd9c0950",
+      "pixelSha256": "c1c9d8913545fe590f35efd390160f68d65d648499a948c86a5e8a537181ab54",
+      "format": "PNG",
+      "bytes": 1961315,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 101,
+      "productCode": "K-027777",
+      "itemSeq": "201005501",
+      "modelName": "카나브정 60mg",
+      "relativePath": "101_K-027777/front.png",
+      "sourcePath": "data/sources/raw/K-027777/K-027777_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_60_단일.zip",
+        "labelMember": "K-027777_json/K-027777_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "47eeed365b65bbf6c2a8c0a2052aba02cd8bc8443f3e3e1ade7b08215f650312",
+      "pixelSha256": "96d90e9c9312b57d82e234aed4c8952f606c9cd4d70f7092eb8c3983d63ad2c3",
+      "format": "PNG",
+      "bytes": 1417155,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 102,
+      "productCode": "K-027926",
+      "itemSeq": "201006967",
+      "modelName": "울트라셋이알서방정",
+      "relativePath": "102_K-027926/front.png",
+      "sourcePath": "data/sources/raw/K-027926/K-027926_0_1_0_2_90_180_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-027926_json/K-027926_0_1_0_2_90_180_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "d6e632b22db2c1d763e0d6e2315bb8423744ca00b72d585a54ae33a40359f23a",
+      "pixelSha256": "0910f71c932f18644a2ed04b720580d59dbfe401feeb9562c1040ebafe583635",
+      "format": "PNG",
+      "bytes": 2101126,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 103,
+      "productCode": "K-028122",
+      "itemSeq": "201100749",
+      "modelName": "프라닥사캡슐 110mg",
+      "relativePath": "103_K-028122/front.png",
+      "sourcePath": "data/sources/raw/K-028122/K-028122_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-028122_json/K-028122_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7de2702d6699ed77a321a929c4e5934254c540bbae37dab47f2b331f6f38494f",
+      "pixelSha256": "e99f270e2d3219fd103a8cdf68d5f37cda85cb90b53d7b4168889fdbd58cf90c",
+      "format": "PNG",
+      "bytes": 2278863,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 104,
+      "productCode": "K-028424",
+      "itemSeq": "201102769",
+      "modelName": "플리바스정 50mg",
+      "relativePath": "104_K-028424/front.png",
+      "sourcePath": "data/sources/raw/K-028424/K-028424_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-028424_json/K-028424_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "64aea79d1e64b42061b57c29812034c2f001d2b96c387262cde097f41135d19a",
+      "pixelSha256": "e2ae537dc80a25cbc6f52dfa44c1a748025993516f14a28cbebcb61a97aa54e1",
+      "format": "PNG",
+      "bytes": 1863607,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 105,
+      "productCode": "K-028763",
+      "itemSeq": "201106367",
+      "modelName": "트라젠타정(리나글립틴)",
+      "relativePath": "105_K-028763/front.png",
+      "sourcePath": "data/sources/raw/K-028763/K-028763_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_62_단일.zip",
+        "labelMember": "K-028763_json/K-028763_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "e207d9cb54b0ec100b3f32cc8194ac1fada26b22e1dc91ae87a662488e0c4849",
+      "pixelSha256": "6136a8eaab237c0d5eed01d1cee3dad3dff603c4842afb0fb4662bcab9ad1216",
+      "format": "PNG",
+      "bytes": 2072960,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 106,
+      "productCode": "K-029345",
+      "itemSeq": "201200417",
+      "modelName": "비모보정 500/20mg",
+      "relativePath": "106_K-029345/front.png",
+      "sourcePath": "data/sources/raw/K-029345/K-029345_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-029345_json/K-029345_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "aaa46e88bbb532cdab89002aa6e92084bf30251d6c7245d5589f77045461b486",
+      "pixelSha256": "00b0236c40a9f7856ccd50e8cefdb10f7d678c17b999e9636ce91c97b6f63bcd",
+      "format": "PNG",
+      "bytes": 1392830,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 107,
+      "productCode": "K-029429",
+      "itemSeq": "201201271",
+      "modelName": "자렐토정 15mg",
+      "relativePath": "107_K-029429/front.png",
+      "sourcePath": "data/sources/raw/K-029429/K-029429_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_64_단일.zip",
+        "labelMember": "K-029429_json/K-029429_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b33c8f3b9921b80007dc15e0a4f79a4c6d7bf8a34c7c999fde1052de31ac5cde",
+      "pixelSha256": "059dcb26f3834ae238a3ab25adb5f63b14b7aa5087491fb3a10b3efd54f62440",
+      "format": "PNG",
+      "bytes": 1250314,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 108,
+      "productCode": "K-029451",
+      "itemSeq": "201201587",
+      "modelName": "레일라정",
+      "relativePath": "108_K-029451/front.png",
+      "sourcePath": "data/sources/raw/K-029451/K-029451_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-029451_json/K-029451_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "db49125d730440438ab22d1850b62b6b34b24e8987909ff6ec31ff21912d65ba",
+      "pixelSha256": "9d542ead92f9626422a2cc367b910955cbb3c272666425d3edd50b7ea94270cd",
+      "format": "PNG",
+      "bytes": 1973637,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 109,
+      "productCode": "K-029667",
+      "itemSeq": "201205253",
+      "modelName": "리바로정 4mg",
+      "relativePath": "109_K-029667/front.png",
+      "sourcePath": "data/sources/raw/K-029667/K-029667_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-029667_json/K-029667_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "8de0457cc9de7a1d17dd9479e35dc00a66b93f241486381e1baa657d981af65f",
+      "pixelSha256": "3f11d7ee6e14b8b62872b9a0b41428e7d795aa2ea7d371f5002d3a46c60e22dc",
+      "format": "PNG",
+      "bytes": 1941026,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 110,
+      "productCode": "K-029711",
+      "itemSeq": "201205447",
+      "modelName": "디카테오정",
+      "relativePath": "110_K-029711/front.png",
+      "sourcePath": "data/sources/raw/K-029711/K-029711_0_0_0_1_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_64_단일.zip",
+        "labelMember": "K-029711_json/K-029711_0_0_0_1_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b38d8250a898fb830b8135d8ac585b24d0a8e446b24811a37c5d047ebe691adc",
+      "pixelSha256": "ff5d9cd59a3fdbf8cbf37aa5b9a01b341216b0c95d615101fbaf2107b68450dd",
+      "format": "PNG",
+      "bytes": 1145977,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 111,
+      "productCode": "K-029871",
+      "itemSeq": "201206335",
+      "modelName": "렉사프로정 15mg",
+      "relativePath": "111_K-029871/front.png",
+      "sourcePath": "data/sources/raw/K-029871/K-029871_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_13_단일.zip",
+        "labelMember": "K-029871_json/K-029871_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7b605a29de8cbe9ea8c464ef3676f3b019a42c273ed5225258703f5bfb00f300",
+      "pixelSha256": "6c0ff4604ab65d340dbb24271ddffd5ae8712d599552348941129f55db2159fd",
+      "format": "PNG",
+      "bytes": 998634,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 112,
+      "productCode": "K-030308",
+      "itemSeq": "201208291",
+      "modelName": "트라젠타듀오정 2.5/850mg",
+      "relativePath": "112_K-030308/front.png",
+      "sourcePath": "data/sources/raw/K-030308/K-030308_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_14_단일.zip",
+        "labelMember": "K-030308_json/K-030308_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "5e2a0062adc124d0afb3a42cd2a9906e26ab31c0eaee7e2cdea169a88284e904",
+      "pixelSha256": "5847284a7e8e2d018903a6baaeacf9da6945e52ea8b5d180a82d53c1844418dd",
+      "format": "PNG",
+      "bytes": 1231144,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 113,
+      "productCode": "K-030820",
+      "itemSeq": "201305957",
+      "modelName": "실로스탄씨알정 200mg",
+      "relativePath": "113_K-030820/front.png",
+      "sourcePath": "data/sources/raw/K-030820/K-030820_0_1_0_2_90_180_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_14_단일.zip",
+        "labelMember": "K-030820_json/K-030820_0_1_0_2_90_180_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7d4d07b5be21745507e4a75dce4d03d24b2764963605bd79d3de4a415bcbdba1",
+      "pixelSha256": "b3b1b3aeeb3602e79d8bcec16136baa4f30f18a4282bcfd7b0d31a8ed75f9eb0",
+      "format": "PNG",
+      "bytes": 1669442,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 114,
+      "productCode": "K-030850",
+      "itemSeq": "201306134",
+      "modelName": "비오플250캡슐 282.5mg",
+      "relativePath": "114_K-030850/front.png",
+      "sourcePath": "data/sources/raw/K-030850/K-030850_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_67_단일.zip",
+        "labelMember": "K-030850_json/K-030850_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "e228da626c9bc0e15adf7a3447ddeff2bdf6255e4722bc008fceec76a0f2f557",
+      "pixelSha256": "2e5eb8313781709bddb4b5190ddc8d455d98c9af809ec53b984ca50c98ee77dd",
+      "format": "PNG",
+      "bytes": 1776148,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 115,
+      "productCode": "K-030992",
+      "itemSeq": "201306534",
+      "modelName": "가스론엔구강붕해정 2mg",
+      "relativePath": "115_K-030992/front.png",
+      "sourcePath": "data/sources/raw/K-030992/K-030992_0_1_0_2_90_180_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_67_단일.zip",
+        "labelMember": "K-030992_json/K-030992_0_1_0_2_90_180_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b75cab2bb87a6eed101570c4d1642466a197a94371ff14698c8f03317799cc22",
+      "pixelSha256": "7b5d6a9187622cf54978f354ec28bc267532a035abc46efdb622231137f43290",
+      "format": "PNG",
+      "bytes": 1807380,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 116,
+      "productCode": "K-031705",
+      "itemSeq": "201308928",
+      "modelName": "낙소졸정 500/20mg",
+      "relativePath": "116_K-031705/front.png",
+      "sourcePath": "data/sources/raw/K-031705/K-031705_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_68_단일.zip",
+        "labelMember": "K-031705_json/K-031705_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "5d4c694e68a47d2ed5c29f4d4723fa416a2120e2f05d388f6b28e27c4e81f606",
+      "pixelSha256": "69dff020fced464fa97f103e7c4e750c5113f2147cfa8f6204bc9cde7f3550fb",
+      "format": "PNG",
+      "bytes": 2086831,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 117,
+      "productCode": "K-031863",
+      "itemSeq": "201309347",
+      "modelName": "아질렉트정(라사길린메실산염)",
+      "relativePath": "117_K-031863/front.png",
+      "sourcePath": "data/sources/raw/K-031863/K-031863_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_69_단일.zip",
+        "labelMember": "K-031863_json/K-031863_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "8ad3d299063694d0aef5ae92b715a94ebc4f8628d2f2b00826b2fdeb887a1631",
+      "pixelSha256": "4d3334ca15a4741ade0b7b93544d20d3194501129227bd7ccc8d190e4221b602",
+      "format": "PNG",
+      "bytes": 1758205,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 118,
+      "productCode": "K-031885",
+      "itemSeq": "201309418",
+      "modelName": "자누메트엑스알서방정 100/1000mg",
+      "relativePath": "118_K-031885/front.png",
+      "sourcePath": "data/sources/raw/K-031885/K-031885_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_14_단일.zip",
+        "labelMember": "K-031885_json/K-031885_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "63321d3bb582aca525a9cb7cd3de71f835237b2ee3bbb06783bc5408309afadb",
+      "pixelSha256": "663410a78e1bc3b46b1aad7899c1471b09517e9966beb1ec1e881dc521ed6c10",
+      "format": "PNG",
+      "bytes": 1514781,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 119,
+      "productCode": "K-032310",
+      "itemSeq": "201310719",
+      "modelName": "글리아타민연질캡슐",
+      "relativePath": "119_K-032310/front.png",
+      "sourcePath": "data/sources/raw/K-032310/K-032310_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_70_단일.zip",
+        "labelMember": "K-032310_json/K-032310_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "c00c116f4996af565a344756ec736670cebd1dec99c70fd0b95e8a82c7a3c1d5",
+      "pixelSha256": "9a77710ea7f80aafe93937492af0e08e2380a5aa09b3c24840a4f010fc0af1da",
+      "format": "PNG",
+      "bytes": 1180196,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 120,
+      "productCode": "K-033009",
+      "itemSeq": "201401963",
+      "modelName": "신바로정",
+      "relativePath": "120_K-033009/front.png",
+      "sourcePath": "data/sources/raw/K-033009/K-033009_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_15_단일.zip",
+        "labelMember": "K-033009_json/K-033009_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9113bd42a197e3bfb2fd6422662421d87dee76d0c43d5e3a014182d99d44c811",
+      "pixelSha256": "e21473e6b76f1d6979ce7875843e804a160b1a711ad2441804ce7bde99c912ed",
+      "format": "PNG",
+      "bytes": 1289951,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 121,
+      "productCode": "K-033026",
+      "itemSeq": "201401986",
+      "modelName": "트루패스정 4mg",
+      "relativePath": "121_K-033026/front.png",
+      "sourcePath": "data/sources/raw/K-033026/K-033026_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_15_단일.zip",
+        "labelMember": "K-033026_json/K-033026_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f6a7b39de9a0fb6e7a4d4b1bbc4381f656bec736692755f97a4dd457cbb3588d",
+      "pixelSha256": "5772a07712241ab2488a0e8aca146ca44a88e00cfb31406a8f4a4b3651afd61e",
+      "format": "PNG",
+      "bytes": 1095926,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 122,
+      "productCode": "K-033208",
+      "itemSeq": "201402463",
+      "modelName": "에스원엠프정 20mg",
+      "relativePath": "122_K-033208/front.png",
+      "sourcePath": "data/sources/raw/K-033208/K-033208_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_15_단일.zip",
+        "labelMember": "K-033208_json/K-033208_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a7b6cf50e48540db645fad3f72e19efbfa73836dfcff6b988c12878a5d7ea854",
+      "pixelSha256": "2b375cb5e1ed2a10951ec2224b0f5b5cdf44b725f41505b47b3d92d6a1f44ec9",
+      "format": "PNG",
+      "bytes": 2204432,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 123,
+      "productCode": "K-033878",
+      "itemSeq": "201403837",
+      "modelName": "브린텔릭스정 20mg",
+      "relativePath": "123_K-033878/front.png",
+      "sourcePath": "data/sources/raw/K-033878/K-033878_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_72_단일.zip",
+        "labelMember": "K-033878_json/K-033878_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "9425153742ae7d3f427325b0926495d813f0f250206125bfb4421be7493e0705",
+      "pixelSha256": "85191a4283bccfe9c0da55291c36062b8d5c345a329d19d2787c975b654a7dea",
+      "format": "PNG",
+      "bytes": 1483559,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 124,
+      "productCode": "K-033880",
+      "itemSeq": "201403839",
+      "modelName": "글리틴정(콜린알포세레이트)",
+      "relativePath": "124_K-033880/front.png",
+      "sourcePath": "data/sources/raw/K-033880/K-033880_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_15_단일.zip",
+        "labelMember": "K-033880_json/K-033880_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "7d48ac32286b12d1a726345cb20ff3e29ef0093e0e40b35f9a565533fd7941cf",
+      "pixelSha256": "5006a21a6b40c46d7ce58b2fa9621ecd3da0fee0c55a4db56baa8cb5e371bde9",
+      "format": "PNG",
+      "bytes": 1372136,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 125,
+      "productCode": "K-034597",
+      "itemSeq": "201405223",
+      "modelName": "제미메트서방정 50/1000mg",
+      "relativePath": "125_K-034597/front.png",
+      "sourcePath": "data/sources/raw/K-034597/K-034597_0_1_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_16_단일.zip",
+        "labelMember": "K-034597_json/K-034597_0_1_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "17a790a39cd8018bb5c72f603e4b11b81d04f064b69ba7f83ba5ede195ef8f63",
+      "pixelSha256": "fb428d659027e4dcbd234351aec3b1e817c2783731745f066db8502acb12694f",
+      "format": "PNG",
+      "bytes": 2147134,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 126,
+      "productCode": "K-035206",
+      "itemSeq": "201500365",
+      "modelName": "아토젯정 10/40mg",
+      "relativePath": "126_K-035206/front.png",
+      "sourcePath": "data/sources/raw/K-035206/K-035206_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_16_단일.zip",
+        "labelMember": "K-035206_json/K-035206_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b6bf3687b9da0434da52d41cbc6906df89e3b1d5f8ab9b11c2ac354c9b7009ea",
+      "pixelSha256": "7702318bb7e99154010fe84f843a0605edce3efe1df8d151a50bb1e23c9bd146",
+      "format": "PNG",
+      "bytes": 1007032,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 127,
+      "productCode": "K-035659",
+      "itemSeq": "201501483",
+      "modelName": "제라타딘정(로라타딘)",
+      "relativePath": "127_K-035659/front.png",
+      "sourcePath": "data/sources/raw/K-035659/K-035659_0_2_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_16_단일.zip",
+        "labelMember": "K-035659_json/K-035659_0_2_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b79d782de1de01a2034caf65412fd6b887c016e7ef728ceda782e0e707046008",
+      "pixelSha256": "c48463b7b1dbfd4ee85ee7a4b9c666c37c84c6bb00d3bb6c3264c4d14f5e1373",
+      "format": "PNG",
+      "bytes": 1970818,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 128,
+      "productCode": "K-036637",
+      "itemSeq": "201503658",
+      "modelName": "로수젯정10/5밀리그램",
+      "relativePath": "128_K-036637/front.png",
+      "sourcePath": "data/sources/raw/K-036637/K-036637_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_77_단일.zip",
+        "labelMember": "K-036637_json/K-036637_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6de33e8effc119559b1c1890d2b8fcea3291bba0d647ccd0c9782925eef2504d",
+      "pixelSha256": "60dbfaac497e59789eccead2d092b974b681d8fee33503b5fc5a512dc5e54a8c",
+      "format": "PNG",
+      "bytes": 401390,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 129,
+      "productCode": "K-037589",
+      "itemSeq": "201507146",
+      "modelName": "비노스토발포정(알렌드론산나트륨삼수화물)",
+      "relativePath": "129_K-037589/front.png",
+      "sourcePath": "data/sources/raw/K-037589/K-037589_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_16_단일.zip",
+        "labelMember": "K-037589_json/K-037589_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "3c5529ee488a7269a40a89cfec6c6d4dc9eaa1171b694b2efef51c05b06effbc",
+      "pixelSha256": "4e4248cc2d7a08bc23567a0e2dcbeb92bc78c6ab433af17ccb21d96b7fbb1421",
+      "format": "PNG",
+      "bytes": 1981273,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 130,
+      "productCode": "K-037777",
+      "itemSeq": "201507696",
+      "modelName": "알바스테인캡슐(에르도스테인)",
+      "relativePath": "130_K-037777/front.png",
+      "sourcePath": "data/sources/raw/K-037777/K-037777_0_2_0_1_90_040_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_79_단일.zip",
+        "labelMember": "K-037777_json/K-037777_0_2_0_1_90_040_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "0bdadf11d88571847087c42cab5da4f04e989d3d9573952b0e2f7e51c8c5fe38",
+      "pixelSha256": "a0b4533c9631ee1525b046568ce1a0b436a4c9f8333e0d5e305d46b4792925aa",
+      "format": "PNG",
+      "bytes": 1757440,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 131,
+      "productCode": "K-038162",
+      "itemSeq": "201600318",
+      "modelName": "로수바미브정 10/20mg",
+      "relativePath": "131_K-038162/front.png",
+      "sourcePath": "data/sources/raw/K-038162/K-038162_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_79_단일.zip",
+        "labelMember": "K-038162_json/K-038162_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "fe138470bfdbe3b435c4fa683fce82d3894feea44892182c9727dd9373851f38",
+      "pixelSha256": "2eb1a83a26705c806f813388dea1c81021bf4dff915ca98c71b4e2d71ad24d8a",
+      "format": "PNG",
+      "bytes": 2314856,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 132,
+      "productCode": "K-038723",
+      "itemSeq": "201602113",
+      "modelName": "엔트레스토필름코팅정 200mg",
+      "relativePath": "132_K-038723/front.png",
+      "sourcePath": "data/sources/raw/K-038723/K-038723_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_17_단일.zip",
+        "labelMember": "K-038723_json/K-038723_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "ef2ea6c500e458ab880f79af8408dbe5149fd67c91289d9770377ef3f90c669a",
+      "pixelSha256": "190ae9e62a96dd1a87c9bad49fa41134fabee4b602b9f399446d655657fab1bb",
+      "format": "PNG",
+      "bytes": 698536,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 133,
+      "productCode": "K-038927",
+      "itemSeq": "201602610",
+      "modelName": "락토엔큐캡슐(바실루스리케니포르미스균)",
+      "relativePath": "133_K-038927/front.png",
+      "sourcePath": "data/sources/raw/K-038927/K-038927_0_0_0_1_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_81_단일.zip",
+        "labelMember": "K-038927_json/K-038927_0_0_0_1_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "cc19d68679651a8b62ce0aa4f50a834bf7ce735cc493d03d86032b4c70568b24",
+      "pixelSha256": "efbcb7e7165a15e5e6537df92b658be0b50eab4df9e6371ff479d773787a637b",
+      "format": "PNG",
+      "bytes": 1229030,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 134,
+      "productCode": "K-038954",
+      "itemSeq": "201602679",
+      "modelName": "뮤코원캡슐(에르도스테인)",
+      "relativePath": "134_K-038954/front.png",
+      "sourcePath": "data/sources/raw/K-038954/K-038954_0_2_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_81_단일.zip",
+        "labelMember": "K-038954_json/K-038954_0_2_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "ec7de30080c2d9e7d4344f9e8561a907af29e07ee5bb6e3c3d745d7e390bff78",
+      "pixelSha256": "a3c5214f3d3c1163dfb3315a4ed8c3524eeee7383b929321fd10dc97422e7470",
+      "format": "PNG",
+      "bytes": 1849600,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 135,
+      "productCode": "K-038972",
+      "itemSeq": "201602714",
+      "modelName": "알러비정(세티리진염산염)",
+      "relativePath": "135_K-038972/front.png",
+      "sourcePath": "data/sources/raw/K-038972/K-038972_0_1_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_17_단일.zip",
+        "labelMember": "K-038972_json/K-038972_0_1_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a6d3784e7ac94d747929d95f4c3967322080abdf462c88efe8480df0c06b4742",
+      "pixelSha256": "89605f3d5fa6b083265990908e03f9c113da2d114bfd77859055a81ae9de57ae",
+      "format": "PNG",
+      "bytes": 1756052,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 136,
+      "productCode": "K-039135",
+      "itemSeq": "201603057",
+      "modelName": "루키오츄정4밀리그램(몬테루카스트나트륨)",
+      "relativePath": "136_K-039135/front.png",
+      "sourcePath": "data/sources/raw/K-039135/K-039135_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_17_단일.zip",
+        "labelMember": "K-039135_json/K-039135_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "a95c77f6631d016721b1ac6ae5de37281910aac0175b15562c52d1e5e7a8a97d",
+      "pixelSha256": "0707bbcb46b2987eadf8d19d91621f3e8b1f8f36e2419365ecb2d3a9a53ac314",
+      "format": "PNG",
+      "bytes": 2045417,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 137,
+      "productCode": "K-039810",
+      "itemSeq": "201604010",
+      "modelName": "로페도에프캡슐 10mg",
+      "relativePath": "137_K-039810/front.png",
+      "sourcePath": "data/sources/raw/K-039810/K-039810_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_17_단일.zip",
+        "labelMember": "K-039810_json/K-039810_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "42f2528fea2898d710a15b6868d80a4460249247855148956abba7a15b4026b2",
+      "pixelSha256": "704c0e3316701a7c5910024ae8b1b674c6fe3671ee4031f503a006686de4d830",
+      "format": "PNG",
+      "bytes": 1730918,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 138,
+      "productCode": "K-039889",
+      "itemSeq": "201604113",
+      "modelName": "가스티인씨알정(모사프리드시트르산염수화물)",
+      "relativePath": "138_K-039889/front.png",
+      "sourcePath": "data/sources/raw/K-039889/K-039889_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "VL_1_단일.zip",
+        "labelMember": "K-039889_json/K-039889_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "b63cb44b8527cbbbb4036220e63520c2d6120951a9c53dbf8a1dd0355db199eb",
+      "pixelSha256": "8fa22bb230b934fd5703304485869f0b36c4ecc6390bebb2da2ba97b3d7425dc",
+      "format": "PNG",
+      "bytes": 613927,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 139,
+      "productCode": "K-040790",
+      "itemSeq": "201606824",
+      "modelName": "콜키닌정(콜키신)",
+      "relativePath": "139_K-040790/front.png",
+      "sourcePath": "data/sources/raw/K-040790/K-040790_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "VL_3_단일.zip",
+        "labelMember": "K-040790_json/K-040790_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "6bbff7e35c9916272b795825dff6fb123d2cf8edaf2ab809a17a394c9ff2de6a",
+      "pixelSha256": "f4d8de10dcfb8be436d3baf601fdddfbd04f5eafef121b1353677afda01548e0",
+      "format": "PNG",
+      "bytes": 1021231,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 140,
+      "productCode": "K-041149",
+      "itemSeq": "201700802",
+      "modelName": "람노스캡슐500mg/병",
+      "relativePath": "140_K-041149/front.png",
+      "sourcePath": "data/sources/raw/K-041149/K-041149_0_1_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_18_단일.zip",
+        "labelMember": "K-041149_json/K-041149_0_1_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "90eececbc82564e701c62b5bb45584df5ae6ffb7f2858765b7e5082d3c718bfc",
+      "pixelSha256": "88c20ad67c677731bb9a3f0e38a2f7f1c43a4b94ed2de86be07e8ff772ff7205",
+      "format": "PNG",
+      "bytes": 1536161,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 141,
+      "productCode": "K-041667",
+      "itemSeq": "201702373",
+      "modelName": "디맥정30000IU/PTP",
+      "relativePath": "141_K-041667/front.png",
+      "sourcePath": "data/sources/raw/K-041667/K-041667_0_0_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_18_단일.zip",
+        "labelMember": "K-041667_json/K-041667_0_0_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f126c43a7392482420b72659fa07a521f8c530cd1bc95b25f0c9c93b20d95091",
+      "pixelSha256": "99b36c7b9462c13bb034ac7e75a202b34e40422771045ee85cd5f901d3bf9b4e",
+      "format": "PNG",
+      "bytes": 1077828,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 142,
+      "productCode": "K-041768",
+      "itemSeq": "201702674",
+      "modelName": "카발린캡슐 25mg",
+      "relativePath": "142_K-041768/front.png",
+      "sourcePath": "data/sources/raw/K-041768/K-041768_0_1_0_2_90_020_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "VL_4_단일.zip",
+        "labelMember": "K-041768_json/K-041768_0_1_0_2_90_020_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "0c33f3b061b41095d3899fa68a08ca89722cceb3a7118d92c922ba849e8363ec",
+      "pixelSha256": "bc1046c6320c0e05215c1aba7690e8e27fc2028bea35d9439f848396c972628b",
+      "format": "PNG",
+      "bytes": 1715368,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 143,
+      "productCode": "K-042835",
+      "itemSeq": "201708219",
+      "modelName": "슈퍼피린캡슐 75/75mg",
+      "relativePath": "143_K-042835/front.png",
+      "sourcePath": "data/sources/raw/K-042835/K-042835_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_18_단일.zip",
+        "labelMember": "K-042835_json/K-042835_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "2ed3b2edbac2c749f6b7a35e63d7dee9bb771d2a59f94818fd693dfd8d762c9f",
+      "pixelSha256": "c95aec8394e754354d49fd9ddc12d030c24a0c5341c9d3033afa4dcc46a626a5",
+      "format": "PNG",
+      "bytes": 842213,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 144,
+      "productCode": "K-043233",
+      "itemSeq": "201800568",
+      "modelName": "바이오탑디캡슐 50mg/병",
+      "relativePath": "144_K-043233/front.png",
+      "sourcePath": "data/sources/raw/K-043233/K-043233_0_0_0_2_75_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "VL_7_단일.zip",
+        "labelMember": "K-043233_json/K-043233_0_0_0_2_75_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "88474eae04d2cfe4bf2321f2d2bd10892121f6bb15d3e36b91213a72c105a94e",
+      "pixelSha256": "0092674a55937d528ddfd1fe59c3c7ab5c15a3b5471bdc5d38321c7cb52bd442",
+      "format": "PNG",
+      "bytes": 1367035,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 145,
+      "productCode": "K-044199",
+      "itemSeq": "201802815",
+      "modelName": "케이캡정 50mg",
+      "relativePath": "145_K-044199/front.png",
+      "sourcePath": "data/sources/raw/K-044199/K-044199_0_0_0_2_75_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "VL_8_단일.zip",
+        "labelMember": "K-044199_json/K-044199_0_0_0_2_75_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "81f1d6f0c209e679c9cb0685c95864856b84714baa6f6e2d5010ad4b65f1992f",
+      "pixelSha256": "b6ec8e39b563b561c9bd3259c6d6e931a2e67bbd2ac9496b73f30eea835af769",
+      "format": "PNG",
+      "bytes": 1119618,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 146,
+      "productCode": "K-044266",
+      "itemSeq": "201803000",
+      "modelName": "바이오탑하이캡슐 150mg/병",
+      "relativePath": "146_K-044266/front.png",
+      "sourcePath": "data/sources/raw/K-044266/K-044266_0_0_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "VL_9_단일.zip",
+        "labelMember": "K-044266_json/K-044266_0_0_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "f565c749699b6cdc722a6a27e8bc9009abf9a2f18df4c115f5aa40a24dc5876e",
+      "pixelSha256": "59242b04f681a05a27431359bc0a9869c7bbc2b1e53a74c909d6791e8eeb834a",
+      "format": "PNG",
+      "bytes": 1236868,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 147,
+      "productCode": "K-044332",
+      "itemSeq": "201803124",
+      "modelName": "베리온서방정(베포타스틴살리실산염)",
+      "relativePath": "147_K-044332/front.png",
+      "sourcePath": "data/sources/raw/K-044332/K-044332_0_2_0_2_90_000_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_19_단일.zip",
+        "labelMember": "K-044332_json/K-044332_0_2_0_2_90_000_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "21a2b6de9aa0d9aef53de69e20969257382619d81d2289c3ecffdc6a4b9980df",
+      "pixelSha256": "06ceaa80aef5667fc91266d715c6df03815d9742d52c5d54455a2821b4a78d05",
+      "format": "PNG",
+      "bytes": 1766674,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 148,
+      "productCode": "K-044761",
+      "itemSeq": "201804237",
+      "modelName": "씬지로이드정 0.2mg",
+      "relativePath": "148_K-044761/front.png",
+      "sourcePath": "data/sources/raw/K-044761/K-044761_0_0_0_2_90_120_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_19_단일.zip",
+        "labelMember": "K-044761_json/K-044761_0_0_0_2_90_120_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "3d39b0b1bbfaee38719f2507c87d9c5f605bf86cd47cdeb6266ba24fcb57e92c",
+      "pixelSha256": "0d9332a04712165f3974b71098b2935d1f4fa9767254fadd1d0f01dfdea392fa",
+      "format": "PNG",
+      "bytes": 649784,
+      "width": 976,
+      "height": 1280
+    },
+    {
+      "classId": 149,
+      "productCode": "K-044834",
+      "itemSeq": "201804394",
+      "modelName": "엘스테인정(에르도스테인)",
+      "relativePath": "149_K-044834/front.png",
+      "sourcePath": "data/sources/raw/K-044834/K-044834_0_2_0_2_90_060_200.png",
+      "side": "front",
+      "sideEvidence": {
+        "labelArchive": "TL_19_단일.zip",
+        "labelMember": "K-044834_json/K-044834_0_2_0_2_90_060_200.json",
+        "drugDir": "앞면"
+      },
+      "sha256": "d747f6e426c69ff3498c1f771e586f6824d59f3293def2bb463fb802c6ec5824",
+      "pixelSha256": "08f4393a9086f8b3cafd8340514c049e1696abb78c9874fae1d861a76c83ff21",
+      "format": "PNG",
+      "bytes": 2061829,
+      "width": 976,
+      "height": 1280
+    }
+  ]
+}
